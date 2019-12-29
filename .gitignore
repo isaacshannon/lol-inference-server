@@ -1,0 +1,5 @@
+app/export.pkl
+.idea
+commands.txt
+*.pth
+venv
