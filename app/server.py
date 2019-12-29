@@ -13,6 +13,8 @@ import cv2
 from PIL import Image, ImageDraw
 import os
 
+from app import minimap
+
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
@@ -52,7 +54,7 @@ async def setup_learner():
     # await download_file(export_file_url, path / export_file_name)
     try:
         # learn = load_learner("./app/models", "predict-2019-12-28.pth") Use this for docker run
-        learn = load_learner("/home/isaac/dev/league/lol-web-server/app/models", "predict-28-12-2019.pth")
+        learn = load_learner("/home/isaac/dev/league/lol-web-server/app/models", "predict.pth")
         return learn
     except RuntimeError as e:
         if len(e.args) > 0 and 'CPU-only machine' in e.args[0]:
@@ -74,6 +76,7 @@ async def homepage(request):
     html_file = path / 'view' / 'index.html'
     return HTMLResponse(html_file.open().read())
 
+
 @app.route('/analyze', methods=['POST'])
 async def analyze(request):
     img_data = await request.form()
@@ -82,58 +85,72 @@ async def analyze(request):
     prediction = learn.predict(img)[0]
     return JSONResponse({'result': str(prediction)})
 
+
 @app.route('/capture')
 async def homepage(request):
     html_file = path / 'view' / 'capture.html'
     return HTMLResponse(html_file.open().read())
 
+
 @app.route('/predict', methods=['POST'])
 async def predict(request):
-    print(os.listdir("."))
-    img_form = await request.form()
-    decoded = get_bytes(img_form)
-    img = cv2.imdecode(np.fromstring(decoded, dtype=np.uint8), 1)
-    cv2.imwrite("./app/images/captured.png", img)
+    img_data = await request.form()
+    img_bytes = get_bytes(img_data)
+    img = Image.open(io.BytesIO(img_bytes))
+    # img = cv2.imdecode(np.fromstring(decoded, dtype=np.uint8), 1)
+    # img = Image.fromarray(img)
 
-    dsk_img = cv2.imread("./app/images/captured.png")
-    template = cv2.imread("./app/test/top_corner.png")
-    result = cv2.matchTemplate(dsk_img, template, cv2.TM_CCOEFF_NORMED)
-    # y_top, x_top = np.unravel_index(result.argmax(), result.shape)
-    y, x = np.unravel_index(result.argmax(), result.shape)
+    res = minimap.locate_minimap(img)
+    data = BytesIO()
+    res.save(data, "PNG")
+    data64 = base64.b64encode(data.getvalue())
+    data_uri = u'data:img/jpeg;base64,' + data64.decode('utf-8')
 
-    # template = cv2.imread("./app/test/bottom_corner.png")
+    return JSONResponse({'result': data_uri})
+    # print(os.listdir("."))
+    # img_form = await request.form()
+    # decoded = get_bytes(img_form)
+    # img = cv2.imdecode(np.fromstring(decoded, dtype=np.uint8), 1)
+    # cv2.imwrite("./app/images/captured.png", img)
+    #
+    # dsk_img = cv2.imread("./app/images/captured.png")
+    # template = cv2.imread("./app/test/top_corner.png")
     # result = cv2.matchTemplate(dsk_img, template, cv2.TM_CCOEFF_NORMED)
-    # y_bot, x_bot = np.unravel_index(result.argmax(), result.shape)
-
-    img = Image.open("./app/images/captured.png")
-    # img = img.crop((x_top, y_top, x_bot + 30, y_bot + 30))
-    img = img.crop((x, y, x + 150, y + 150))
-    img = img.resize((150,150), Image.ANTIALIAS)
-    img = img.convert("RGBA")
-    img.save("./app/images/cropped.png")
-
-    pred_img = open_image("./app/images/cropped.png")
-    prediction = str(learn.predict(pred_img)[0])
-    # prediction.save("./app/images/prediction.png")
-    print(prediction)
-    labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
-
-    overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
-    draw = ImageDraw.Draw(overlay)
-    draw_grid(draw, labels)
-    out = Image.alpha_composite(img, overlay)
-    out.save("./app/images/prediction.png")
-
-    data_uri = base64.b64encode(open('./app/images/prediction.png', 'rb').read()).decode('utf-8')
-
-    return JSONResponse({'result': "data:image/png;base64,"+data_uri})
+    # # y_top, x_top = np.unravel_index(result.argmax(), result.shape)
+    # y, x = np.unravel_index(result.argmax(), result.shape)
+    #
+    # # template = cv2.imread("./app/test/bottom_corner.png")
+    # # result = cv2.matchTemplate(dsk_img, template, cv2.TM_CCOEFF_NORMED)
+    # # y_bot, x_bot = np.unravel_index(result.argmax(), result.shape)
+    #
+    # img = Image.open("./app/images/captured.png")
+    # # img = img.crop((x_top, y_top, x_bot + 30, y_bot + 30))
+    # img = img.crop((x, y, x + 150, y + 150))
+    # img = img.resize((150,150), Image.ANTIALIAS)
+    # img = img.convert("RGBA")
+    # img.save("./app/images/cropped.png")
+    #
+    # pred_img = open_image("./app/images/cropped.png")
+    # prediction = str(learn.predict(pred_img)[0])
+    # # prediction.save("./app/images/prediction.png")
+    # print(prediction)
+    # labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
+    #
+    # overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
+    # draw = ImageDraw.Draw(overlay)
+    # draw_grid(draw, labels)
+    # out = Image.alpha_composite(img, overlay)
+    # out.save("./app/images/prediction.png")
+    #
+    # data_uri = base64.b64encode(open('./app/images/prediction.png', 'rb').read()).decode('utf-8')
+    #
+    # return JSONResponse({'result': "data:image/png;base64,"+data_uri})
 
 
 def get_bytes(form):
     img = form["imgBase64"]
     img_parts = img.split(",")
     return base64.b64decode(img_parts[1])
-
 
 
 if __name__ == '__main__':
