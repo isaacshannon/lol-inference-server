@@ -97,54 +97,27 @@ async def predict(request):
     img_data = await request.form()
     img_bytes = get_bytes(img_data)
     img = Image.open(io.BytesIO(img_bytes))
-    # img = cv2.imdecode(np.fromstring(decoded, dtype=np.uint8), 1)
-    # img = Image.fromarray(img)
 
-    res = minimap.locate_minimap(img)
+    lolmap = minimap.locate_minimap(img)
+    lolmap = lolmap.resize((150,150))
+
+    imgByteArr = BytesIO()
+    lolmap.save(imgByteArr, format='PNG')
+    fai_img = open_image(imgByteArr)
+    prediction = str(learn.predict(fai_img)[0])
+    print(prediction)
+    labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
+
+    overlay = Image.new('RGBA', lolmap.size, (255, 255, 255, 0))
+    draw = ImageDraw.Draw(overlay)
+    draw_grid(draw, labels)
+    out = Image.alpha_composite(lolmap, overlay)
     data = BytesIO()
-    res.save(data, "PNG")
+    out.save(data, "PNG")
     data64 = base64.b64encode(data.getvalue())
-    data_uri = u'data:img/jpeg;base64,' + data64.decode('utf-8')
+    data_uri = u'data:img/png;base64,' + data64.decode('utf-8')
 
     return JSONResponse({'result': data_uri})
-    # print(os.listdir("."))
-    # img_form = await request.form()
-    # decoded = get_bytes(img_form)
-    # img = cv2.imdecode(np.fromstring(decoded, dtype=np.uint8), 1)
-    # cv2.imwrite("./app/images/captured.png", img)
-    #
-    # dsk_img = cv2.imread("./app/images/captured.png")
-    # template = cv2.imread("./app/test/top_corner.png")
-    # result = cv2.matchTemplate(dsk_img, template, cv2.TM_CCOEFF_NORMED)
-    # # y_top, x_top = np.unravel_index(result.argmax(), result.shape)
-    # y, x = np.unravel_index(result.argmax(), result.shape)
-    #
-    # # template = cv2.imread("./app/test/bottom_corner.png")
-    # # result = cv2.matchTemplate(dsk_img, template, cv2.TM_CCOEFF_NORMED)
-    # # y_bot, x_bot = np.unravel_index(result.argmax(), result.shape)
-    #
-    # img = Image.open("./app/images/captured.png")
-    # # img = img.crop((x_top, y_top, x_bot + 30, y_bot + 30))
-    # img = img.crop((x, y, x + 150, y + 150))
-    # img = img.resize((150,150), Image.ANTIALIAS)
-    # img = img.convert("RGBA")
-    # img.save("./app/images/cropped.png")
-    #
-    # pred_img = open_image("./app/images/cropped.png")
-    # prediction = str(learn.predict(pred_img)[0])
-    # # prediction.save("./app/images/prediction.png")
-    # print(prediction)
-    # labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
-    #
-    # overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
-    # draw = ImageDraw.Draw(overlay)
-    # draw_grid(draw, labels)
-    # out = Image.alpha_composite(img, overlay)
-    # out.save("./app/images/prediction.png")
-    #
-    # data_uri = base64.b64encode(open('./app/images/prediction.png', 'rb').read()).decode('utf-8')
-    #
-    # return JSONResponse({'result': "data:image/png;base64,"+data_uri})
 
 
 def get_bytes(form):

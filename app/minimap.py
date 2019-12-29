@@ -9,6 +9,9 @@ height = 10
 width = 10
 padding = 10
 
+x_coord = None
+y_coord = None
+
 # The splitter separates the images which have player locator into 10x10px images for training.
 def split(img):
     images = []
@@ -116,13 +119,12 @@ def locate_minimap(og_img):
     og_y_start = og_height-og_height/height_div
     box = (og_x_start, og_y_start, og_width, og_height)
     img = og_img.crop(box)
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/bottom_right_test.png")
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/bottom_right_test.png")
 
-    # column_counts = predict_columns(img)
-    x_coords = predict_x_coord(img)
-    y_coords = predict_y_coord(img)
-    box = (x_coords[0], y_coords[0], x_coords[1], y_coords[1])
+    x_coord = predict_x_coord(img)
+    y_coord = predict_y_coord(img)
+    box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
 
     return img
