@@ -26,29 +26,27 @@ def split(img):
 
 def locate_players(img):
     tags = []
-    start = time.time()
-    images = split(img)
-    predictions = []
-    for im in images:
-        imgByteArr = BytesIO()
-        im.save(imgByteArr, format='PNG')
-        fai_img = open_image(imgByteArr)
-        prediction = str(learn.predict(fai_img)[0])
-        predictions.append(prediction)
 
+    # Predict the grid image types
+    tmp_dir = "/home/isaac/dev/league/lol-web-server/app/tmp"
+    images = split(img)
+    for i in range(len(images)):
+        images[i].save(f"{tmp_dir}/{i}.png")
+    test = ImageList.from_folder(tmp_dir)
+    learn.data.add_test(test)
+    preds = learn.get_preds(ds_type=DatasetType.Test)
+
+    # Identify the grids which are player squares
+    prediction_threshold = 0.5
     row = 0
     column = 0
-    for i in range(len(predictions)):
-        if predictions[i] == "player":
+    for i in range(len(preds[0])):
+        if preds[0][i][1] > prediction_threshold:
+            tags.append(f"{row}-{column}")
+            num = int(test.items[i].stem)
+            row = num // 15
+            column = num % 15
             tags.append(f"{column}-{row}")
-        column += 1
-        if column >= 15:
-            row += 1
-            column = 0
 
     tags.sort()
-    print(tags)
-    print(time.time() - start)
     return " ".join(tags)
-
-def overlay

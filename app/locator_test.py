@@ -1,3 +1,4 @@
+import time
 import unittest
 from PIL import Image, ImageDraw
 from app import locator
@@ -15,7 +16,10 @@ class LocatorTestCase(unittest.TestCase):
     def test_locate_players(self):
         img = Image.open("./test/dwg_lk_4_worlds_2019_0000000939.png")
         expected = "1-10 1-11 10-5 13-1 2-11 2-12 3-9 4-12 4-13 4-9 5-12 5-8 5-9 9-5"
+
+        start = time.time()
         res = locator.locate_players(img)
+        print(time.time() - start)
 
         overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
         draw = ImageDraw.Draw(overlay)
