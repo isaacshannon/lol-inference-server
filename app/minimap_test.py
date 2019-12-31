@@ -3,7 +3,7 @@ from PIL import Image
 from app import minimap
 
 
-class MyTestCase(unittest.TestCase):
+class MinimapTestCase(unittest.TestCase):
     def test_locate_minimap(self):
         img = Image.open("./test/game_screen_000.png")
         res = minimap.locate_minimap(img)

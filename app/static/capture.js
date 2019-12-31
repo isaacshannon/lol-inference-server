@@ -77,7 +77,8 @@
           type: "POST",
           url: "http://localhost:5000/predict",
           data: {
-             imgBase64: canvasData
+             imgBase64: canvasData,
+             user: 5,
           }
         }).done(function(d) {
             console.log(d)

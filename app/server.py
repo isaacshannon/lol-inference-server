@@ -1,7 +1,6 @@
 import aiohttp
 import asyncio
 import uvicorn
-from fastai import *
 from fastai.vision import *
 from io import BytesIO
 from starlette.applications import Starlette
@@ -9,17 +8,17 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 import base64
-import cv2
 from PIL import Image, ImageDraw
-import os
+from tinydb import TinyDB, Query
 
 from app import minimap
 
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
-# classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
+
+db = TinyDB('/home/isaac/dev/league/lol-web-server/app/db.json')
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
@@ -29,10 +28,6 @@ app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-serve
 
 def draw_grid(draw, labels):
     grid_size = 10
-    # for x in range(grid_lines):
-    #     z = grid_size*x
-    #     draw.line([z, 0, z, 150], fill=fill)
-    #     draw.line([0, z, 150, z], fill=fill)
 
     fill = (0, 255, 255, 96)
     for l in labels:
@@ -98,7 +93,19 @@ async def predict(request):
     img_bytes = get_bytes(img_data)
     img = Image.open(io.BytesIO(img_bytes))
 
-    lolmap = minimap.locate_minimap(img)
+    User = Query()
+    userid = str(img_data["user"])
+    table = db.table('users')
+    res = table.search(User.id == userid)
+    print(userid)
+    if len(res) == 0:
+        user = {"id": userid}
+        table.insert(user)
+    else:
+        user = res[0]
+    print(user)
+    lolmap, x_coord, y_coord = minimap.locate_minimap(img, user)
+    table.update({"xstart": x_coord[0], "xend": x_coord[1], "ystart": y_coord[0], "yend": y_coord[1]}, User.id == userid)
     lolmap = lolmap.resize((150,150))
 
     imgByteArr = BytesIO()
