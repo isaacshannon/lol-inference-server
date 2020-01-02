@@ -50,3 +50,26 @@ def locate_players(img):
 
     tags.sort()
     return " ".join(tags)
+
+
+def create_composite(previous_positions, img):
+    grid_size = 10
+    overlay = PIL.Image.new('RGBA', img.size, (255, 255, 255, 0))
+    draw = PIL.ImageDraw.Draw(overlay)
+
+    for i in range(len(previous_positions)):
+        grid = previous_positions[i]
+        grid = grid.split(" ")
+        grid = [(int(g.split("-")[0]), int(g.split("-")[1])) for g in grid]
+
+        c1 = int(255 * ((1 + i) / 16))
+        c2 = 255 - c1
+        alpha = 128
+        fill = (128, 0, c2, alpha)
+        for l in grid:
+            x = l[0] * grid_size
+            y = l[1] * grid_size
+            draw.line([(x, y), (x + grid_size, y + grid_size)], fill=fill, width=2)
+
+    out = PIL.Image.alpha_composite(img, overlay)
+    return out

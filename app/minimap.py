@@ -129,4 +129,4 @@ def locate_minimap(og_img, user):
     img = img.crop(box)
     # img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
 
-    return img, x_coord, y_coord
+    return img.resize((150, 150)), x_coord, y_coord

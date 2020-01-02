@@ -3,3 +3,4 @@ app/export.pkl
 commands.txt
 *.pth
 venv
+*/app/tmp/*

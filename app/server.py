@@ -11,7 +11,7 @@ import base64
 from PIL import Image, ImageDraw
 from tinydb import TinyDB, Query
 
-from app import minimap
+from app import minimap, locator
 
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
@@ -19,11 +19,17 @@ export_file_name = 'export.pkl'
 path = Path(__file__).parent
 
 db = TinyDB('/home/isaac/dev/league/lol-web-server/app/db.json')
+User = Query()
+table = db.table('users')
+table.remove(User.id.search('5'))
+
 
 app = Starlette()
-app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
+app.add_middleware(CORSMiddleware, allow_origins=['*'],
+                   allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
 # app.mount('/static', StaticFiles(directory='app/static')) # use this for docker run
 app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-server/app/static'))
+
 
 
 def draw_grid(draw, labels):
@@ -93,26 +99,38 @@ async def predict(request):
     img_bytes = get_bytes(img_data)
     img = Image.open(io.BytesIO(img_bytes))
 
-    User = Query()
+
     userid = str(img_data["user"])
-    table = db.table('users')
+
     res = table.search(User.id == userid)
     print(userid)
     if len(res) == 0:
-        user = {"id": userid}
+        user = {
+            "id": userid,
+            "previous_positions": ["0-0 0-1"] * 15
+        }
         table.insert(user)
     else:
         user = res[0]
     print(user)
     lolmap, x_coord, y_coord = minimap.locate_minimap(img, user)
-    table.update({"xstart": x_coord[0], "xend": x_coord[1], "ystart": y_coord[0], "yend": y_coord[1]}, User.id == userid)
-    lolmap = lolmap.resize((150,150))
+    previous_positions = user["previous_positions"]
+    previous_positions.append(locator.locate_players(lolmap))
+    previous_positions = previous_positions[1:]
+    lolmap = locator.create_composite(previous_positions, lolmap)
+
+    table.update(
+        {"xstart": x_coord[0],
+         "xend": x_coord[1],
+         "ystart": y_coord[0],
+         "yend": y_coord[1],
+         "previous_positions": previous_positions},
+        User.id == userid)
 
     imgByteArr = BytesIO()
     lolmap.save(imgByteArr, format='PNG')
     fai_img = open_image(imgByteArr)
     prediction = str(learn.predict(fai_img)[0])
-    print(prediction)
     labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
 
     overlay = Image.new('RGBA', lolmap.size, (255, 255, 255, 0))
