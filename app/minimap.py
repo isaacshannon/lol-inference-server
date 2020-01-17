@@ -90,16 +90,27 @@ def predict_y_coord(img):
             max_count = count
             max_column = k
 
+    print(columns[max_column])
+
     start = 0
     end = img_height
     start_found = False
-    for i in range(len(columns[max_column]) - 1):
-        if columns[max_column][i] == "map" and columns[max_column][i + 1] == "map" and not start_found:
+    for i in range(len(columns[max_column]) - 4):
+        if columns[max_column][i] == "map" \
+                and columns[max_column][i + 1] == "map" \
+                and columns[max_column][i + 2] == "map" \
+                and columns[max_column][i + 3] == "map" \
+                and not start_found:
             start = i * width
             start_found = True
             continue
-        if columns[max_column][i] != "map" and columns[max_column][i + 1] != "map" and start_found:
-            end = i * width
+        if columns[max_column][i] == "map" \
+                and columns[max_column][i + 1] == "map" \
+                and columns[max_column][i + 2] == "map" \
+                and columns[max_column][i + 3] == "nomap" \
+                and columns[max_column][i + 4] == "nomap" \
+                and start_found:
+            end = (i+2) * width
             break
 
     return start, end
@@ -114,7 +125,7 @@ def locate_minimap(og_img, user):
     og_y_start = og_height - og_height / height_div
     box = (og_x_start, og_y_start, og_width, og_height)
     img = og_img.crop(box)
-    # img.save("/home/isaac/dev/league/lol-web-server/app/test/bottom_right_test.png")
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/bottom_right_test.png")
 
     # Attempt to retrieve the x,y coordinates from the user record
     try:
@@ -127,6 +138,6 @@ def locate_minimap(og_img, user):
         y_coord = predict_y_coord(img)
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    # img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
-
-    return img.resize((150, 150)), x_coord, y_coord
+    img = img.resize((150, 150))
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
+    return img, x_coord, y_coord

@@ -6,16 +6,23 @@ from app import locator
 
 
 def draw_grid(draw, labels):
-    fill = (0, 255, 255, 96)
+    fill = (255, 255, 255, 96)
     for l in labels:
         x = l[0] * 10
         y = l[1] * 10
+        if l[2] == "blue":
+            fill = (0, 0, 255, 96)
+        elif l[2] == "red":
+            fill = (255, 0, 0, 96)
+        elif l[2] == "blue-red":
+            fill = (255, 255, 255, 96)
         draw.rectangle((x, y, x + 10, y + 10), fill=fill)
 
 
 class LocatorTestCase(unittest.TestCase):
     def test_locate_players(self):
-        img = Image.open("./test/dwg_lk_4_worlds_2019_0000000939.png")
+        img = Image.open("./test/hka_isg_4_2019_0000000015.png")
+        img = img.resize((150, 150))
 
         start = time.time()
         res = locator.locate_players(img)
@@ -24,7 +31,7 @@ class LocatorTestCase(unittest.TestCase):
         overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
         draw = ImageDraw.Draw(overlay)
         tags = res.split(" ")
-        grids = [(int(t.split("-")[0]), int(t.split("-")[1])) for t in tags]
+        grids = [(int(t.split(";")[0]), int(t.split(";")[1]), t.split(";")[2]) for t in tags]
         draw_grid(draw, grids)
         out = Image.alpha_composite(img, overlay)
         out.save("./test/locator-test.png")
@@ -34,21 +41,23 @@ class LocatorTestCase(unittest.TestCase):
 
 class AugmentMapTestCase(unittest.TestCase):
     def test_augment_map(self):
-        previous_positions = ["10-9 12-10 12-11 3-2 3-3 6-7 7-6 7-7 8-5 8-6 9-4",
-                              "11-11 11-12 12-10 12-11 12-12 2-3 3-2 3-3 7-5 7-6 7-7 8-5 8-6 8-7",
-                              "10-9 11-11 12-10 12-11 2-2 2-3 3-1 3-2 3-3 8-4 8-6 8-7",
-                              "11-12 12-10 12-11 12-12 2-2 2-3 3-2 3-3 8-4 8-5 8-7",
-                              "11-11 12-10 12-11 2-2 2-3 6-4 7-4 7-7 8-6 8-7",
-                              "12-11 12-12 2-3 3-3 3-4 7-4 8-7 8-8 12-11 12-12 3-3 7-4 8-7",
-                              "12-10 12-11 12-12 2-3 2-4 3-3 3-4 7-4 7-7 8-7",
-                              "12-10 12-11 2-2 2-3 3-3 6-7 7-3 7-4 7-6 7-7 8-6",
-                              "1-3 11-11 11-12 12-10 12-11 12-12 2-3 2-4 6-4 7-4 7-6 7-7 8-6",
-                              "1-2 1-3 11-10 11-11 12-10 12-11 2-2 2-3 6-3 6-4 6-7 7-3 7-6 7-7",
-                              "12-10 12-11 12-12 2-3 2-4 6-4 7-3 7-4 7-6 7-7 8-6 8-7",
-                              "11-10 11-11 12-10 12-11 2-3 2-4 6-3 7-3 7-4 7-6 7-7 8-6",
-                              "1-3 1-4 11-10 11-11 11-12 12-10 12-11 2-3 2-4 6-4 6-7 7-7",
-                              "1-3 1-4 11-11 12-10 12-11 2-3 2-4 6-3 6-4 6-7 7-6 7-7",
-                              "11-11 12-10 12-11 2-3 2-4 6-3 6-4 7-3 7-4 7-7 8-6 8-7"]
+        previous_positions = [
+            '1;11;red 7;10;blue 7;11;blue-red 8;3;blue 8;4;red 1;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '1;11;red 8;10;blue 8;11;blue-red 7;3;blue 7;4;red 2;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '1;11;red 9;10;blue 9;11;blue-red 6;3;blue 6;4;red 3;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '1;11;red 10;10;blue 10;11;blue-red 5;3;blue 5;4;red 4;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '2;11;red 11;10;blue 11;11;blue-red 4;3;blue 4;4;red 5;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '3;11;red 12;10;blue 12;11;blue-red 3;3;blue 3;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '4;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '5;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '6;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '7;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '8;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '9;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '10;11;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '11;10;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+            '12;10;red 12;10;blue 12;11;blue-red 2;3;blue 2;4;red 6;4;blue 7;3;blue 7;4;blue 7;7;blue-red 8;6;blue 8;7;blue',
+        ]
 
         img = Image.open("./test/hka_isg_4_2019_0000000015.png")
         res = locator.create_composite(previous_positions, img)

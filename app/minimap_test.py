@@ -5,8 +5,9 @@ from app import minimap
 
 class MinimapTestCase(unittest.TestCase):
     def test_locate_minimap(self):
-        img = Image.open("./test/game_screen_000.png")
-        res = minimap.locate_minimap(img)
+        img = Image.open("./test/last-img.png")
+        res, x, y = minimap.locate_minimap(img, {})
+        res.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
         self.assertEqual(True, True)
 
 

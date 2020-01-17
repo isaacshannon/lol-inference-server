@@ -9,20 +9,15 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 import base64
 from PIL import Image, ImageDraw
-from tinydb import TinyDB, Query
 
 from app import minimap, locator
+from app.predicter import predict_locations
+from app.user import update_user, get_user
 
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
 path = Path(__file__).parent
-
-db = TinyDB('/home/isaac/dev/league/lol-web-server/app/db.json')
-User = Query()
-table = db.table('users')
-table.remove(User.id.search('5'))
-
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
@@ -30,61 +25,10 @@ app.add_middleware(CORSMiddleware, allow_origins=['*'],
 # app.mount('/static', StaticFiles(directory='app/static')) # use this for docker run
 app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-server/app/static'))
 
-
-
-def draw_grid(draw, labels):
-    grid_size = 10
-
-    fill = (0, 255, 255, 96)
-    for l in labels:
-        x = l[0] * grid_size
-        y = l[1] * grid_size
-        draw.rectangle((x, y, x + grid_size, y + grid_size), fill=fill)
-
-
-# async def download_file(url, dest):
-#     if dest.exists(): return
-#     async with aiohttp.ClientSession() as session:
-#         async with session.get(url) as response:
-#             data = await response.read()
-#             with open(dest, 'wb') as f:
-#                 f.write(data)
-
-
-async def setup_learner():
-    # await download_file(export_file_url, path / export_file_name)
-    try:
-        # learn = load_learner("./app/models", "predict-2019-12-28.pth") Use this for docker run
-        learn = load_learner("/home/isaac/dev/league/lol-web-server/app/models", "predict.pth")
-        return learn
-    except RuntimeError as e:
-        if len(e.args) > 0 and 'CPU-only machine' in e.args[0]:
-            print(e)
-            message = "\n\nThis model was trained with an old version of fastai and will not work in a CPU environment.\n\nPlease update the fastai library in your training environment and export your model again.\n\nSee instructions for 'Returning to work' at https://course.fast.ai."
-            raise RuntimeError(message)
-        else:
-            raise
-
-
-loop = asyncio.get_event_loop()
-tasks = [asyncio.ensure_future(setup_learner())]
-learn = loop.run_until_complete(asyncio.gather(*tasks))[0]
-loop.close()
-
-
 @app.route('/')
 async def homepage(request):
     html_file = path / 'view' / 'index.html'
     return HTMLResponse(html_file.open().read())
-
-
-@app.route('/analyze', methods=['POST'])
-async def analyze(request):
-    img_data = await request.form()
-    img_bytes = await (img_data['file'].read())
-    img = open_image(BytesIO(img_bytes))
-    prediction = learn.predict(img)[0]
-    return JSONResponse({'result': str(prediction)})
 
 
 @app.route('/capture')
@@ -98,51 +42,32 @@ async def predict(request):
     img_data = await request.form()
     img_bytes = get_bytes(img_data)
     img = Image.open(io.BytesIO(img_bytes))
+    # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
 
-
-    userid = str(img_data["user"])
-
-    res = table.search(User.id == userid)
-    print(userid)
-    if len(res) == 0:
-        user = {
-            "id": userid,
-            "previous_positions": ["0-0 0-1"] * 15
-        }
-        table.insert(user)
-    else:
-        user = res[0]
-    print(user)
+    user = get_user(img_data["user"])
+    print("user: "+str(user))
     lolmap, x_coord, y_coord = minimap.locate_minimap(img, user)
     previous_positions = user["previous_positions"]
-    previous_positions.append(locator.locate_players(lolmap))
+    new_positions = locator.locate_players(lolmap)
+    previous_positions.append(new_positions)
     previous_positions = previous_positions[1:]
+    update_user(x_coord, y_coord, previous_positions, user)
     lolmap = locator.create_composite(previous_positions, lolmap)
+    # imgByteArr = BytesIO()
+    # lolmap.save(imgByteArr, format='PNG')
+    # # lolmap.save("/home/isaac/dev/league/lol-web-server/app/composite.png")
+    #
+    # fai_img = open_image(imgByteArr)
+    pred_img = predict_locations(lolmap)
 
-    table.update(
-        {"xstart": x_coord[0],
-         "xend": x_coord[1],
-         "ystart": y_coord[0],
-         "yend": y_coord[1],
-         "previous_positions": previous_positions},
-        User.id == userid)
-
-    imgByteArr = BytesIO()
-    lolmap.save(imgByteArr, format='PNG')
-    fai_img = open_image(imgByteArr)
-    prediction = str(learn.predict(fai_img)[0])
-    labels = [(int(s.split("-")[0]), int(s.split("-")[1])) for s in prediction.split(";")]
-
-    overlay = Image.new('RGBA', lolmap.size, (255, 255, 255, 0))
-    draw = ImageDraw.Draw(overlay)
-    draw_grid(draw, labels)
-    out = Image.alpha_composite(lolmap, overlay)
     data = BytesIO()
-    out.save(data, "PNG")
+    pred_img.save(data, "PNG")
     data64 = base64.b64encode(data.getvalue())
     data_uri = u'data:img/png;base64,' + data64.decode('utf-8')
-
     return JSONResponse({'result': data_uri})
+
+
+
 
 
 def get_bytes(form):
