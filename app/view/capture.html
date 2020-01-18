@@ -2,23 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gank.ai</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+          integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel='stylesheet' href='../static/style.css'>
 </head>
 <body>
 
-<div class="response">
-    <img id="response" alt="The prediction response.">
-</div>
-
 <div class="camera">
-    <button id="startbutton">Take photo</button>
-    <video id="video" hidden>Video stream not available.</video>
+    <div class="pure-u-1">
+        <button id="startbutton" class="button-capture pure-button center">Start Predictions</button>
+        <video id="video" hidden>Video stream not available.</video>
+    </div>
 </div>
 
-<canvas id="canvas">
+<canvas id="canvas" hidden>
 </canvas>
 
+
+<div class="pure-g">
+    <div class="response center">
+        <img id="response" src='../static/gankai.png' alt="The prediction response.">
+    </div>
+</div>
 
 
 <script src='../static/capture.js'></script>

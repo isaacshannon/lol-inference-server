@@ -57,7 +57,7 @@ def predict_x_coord(img):
     start_found = False
     for i in range(len(rows[max_row]) - 1):
         if rows[max_row][i] == "map" and rows[max_row][i + 1] == "map" and not start_found:
-            start = i * width
+            start = (i+1) * width
             start_found = True
             continue
         if rows[max_row][i] != "map" and rows[max_row][i + 1] != "map" and start_found:
@@ -125,7 +125,7 @@ def locate_minimap(og_img, user):
     og_y_start = og_height - og_height / height_div
     box = (og_x_start, og_y_start, og_width, og_height)
     img = og_img.crop(box)
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/bottom_right_test.png")
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     # Attempt to retrieve the x,y coordinates from the user record
     try:
@@ -138,6 +138,5 @@ def locate_minimap(og_img, user):
         y_coord = predict_y_coord(img)
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    img = img.resize((150, 150))
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
     return img, x_coord, y_coord

@@ -5,12 +5,12 @@ from io import BytesIO
 from fastai.vision import open_image
 
 learn = load_learner("/home/isaac/dev/league/lol-web-server/app/models", "predict.pth")
-grid_size = 10
 
 
-def predict_locations(img):
+def predict_locations(aug_map, og_map):
+    grid_size = og_map.size[0]//15
     imgByteArr = BytesIO()
-    img.save(imgByteArr, format='PNG')
+    aug_map.save(imgByteArr, format='PNG')
     # lolmap.save("/home/isaac/dev/league/lol-web-server/app/composite.png")
 
     fai_img = open_image(imgByteArr)
@@ -21,14 +21,14 @@ def predict_locations(img):
         if predictions[i] > 0.2:
             preds.append(img_classes[i])
     preds = [(int(p.split(";")[0]), int(p.split(";")[1]), p.split(";")[2]) for p in preds]
-    overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
+    overlay = Image.new('RGBA', og_map.size, (255, 255, 255, 0))
     draw = ImageDraw.Draw(overlay)
-    draw_grid(draw, preds)
-    out = Image.alpha_composite(img, overlay)
+    draw_grid(draw, preds, grid_size)
+    out = Image.alpha_composite(og_map, overlay)
 
     return out
 
-def draw_grid(draw, labels):
+def draw_grid(draw, labels, grid_size):
     for l in labels:
         fill = (0, 0, 255, 96)
         if l[2] == "red":

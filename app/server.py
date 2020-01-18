@@ -41,25 +41,21 @@ async def homepage(request):
 async def predict(request):
     img_data = await request.form()
     img_bytes = get_bytes(img_data)
-    img = Image.open(io.BytesIO(img_bytes))
+    src_img = Image.open(io.BytesIO(img_bytes))
     # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
 
     user = get_user(img_data["user"])
     print("user: "+str(user))
-    lolmap, x_coord, y_coord = minimap.locate_minimap(img, user)
+    src_map, x_coord, y_coord = minimap.locate_minimap(src_img, user)
+    lolmap = src_map.resize((150, 150))
     previous_positions = user["previous_positions"]
     new_positions = locator.locate_players(lolmap)
     previous_positions.append(new_positions)
     previous_positions = previous_positions[1:]
     update_user(x_coord, y_coord, previous_positions, user)
     lolmap = locator.create_composite(previous_positions, lolmap)
-    # imgByteArr = BytesIO()
-    # lolmap.save(imgByteArr, format='PNG')
-    # # lolmap.save("/home/isaac/dev/league/lol-web-server/app/composite.png")
-    #
-    # fai_img = open_image(imgByteArr)
-    pred_img = predict_locations(lolmap)
 
+    pred_img = predict_locations(lolmap, src_map)
     data = BytesIO()
     pred_img.save(data, "PNG")
     data64 = base64.b64encode(data.getvalue())

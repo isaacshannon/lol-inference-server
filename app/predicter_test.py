@@ -7,8 +7,9 @@ from app.predicter import predict_locations
 
 class PredictLocationsTestCase(unittest.TestCase):
     def test_predict_locations(self):
-        img = Image.open("./test/hka_isg_4_2019_0000000015.png")
-        res = predict_locations(img)
+        aug_img = Image.open("./test/augment-test.png")
+        og_img = Image.open("./test/hd_mini_map.png")
+        res = predict_locations(aug_img, og_img)
         res.save("./test/predict-test.png")
 
         self.assertEqual(True, True)
