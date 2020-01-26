@@ -10,9 +10,9 @@ from starlette.staticfiles import StaticFiles
 import base64
 from PIL import Image, ImageDraw
 
-from app import minimap, locator
-from app.predicter import predict_locations
-from app.user import update_user, get_user
+import minimap
+from predicter import predict_locations
+from user import update_user, get_user
 
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
@@ -22,8 +22,9 @@ path = Path(__file__).parent
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
                    allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
-# app.mount('/static', StaticFiles(directory='app/static')) # use this for docker run
-app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-server/app/static'))
+app.mount('/static', StaticFiles(directory='app/static')) # use this for docker run
+app.mount('/models', StaticFiles(directory='app/models')) # use this for docker run
+# app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-server/app/static'))
 
 @app.route('/')
 async def homepage(request):
@@ -48,12 +49,7 @@ async def predict(request):
     print("user: "+str(user))
     src_map, x_coord, y_coord = minimap.locate_minimap(src_img, user)
     lolmap = src_map.resize((150, 150))
-    previous_positions = user["previous_positions"]
-    new_positions = locator.locate_players(lolmap)
-    previous_positions.append(new_positions)
-    previous_positions = previous_positions[1:]
-    update_user(x_coord, y_coord, previous_positions, user)
-    lolmap = locator.create_composite(previous_positions, lolmap)
+    update_user(x_coord, y_coord, user)
 
     pred_img = predict_locations(lolmap, src_map)
     data = BytesIO()
@@ -74,4 +70,4 @@ def get_bytes(form):
 
 if __name__ == '__main__':
     if 'serve' in sys.argv:
-        uvicorn.run(app=app, host='0.0.0.0', port=5000, log_level="info")
+        uvicorn.run(app=app, host='0.0.0.0', port=8080, log_level="info")

@@ -1,7 +1,7 @@
 from fastai.vision import *
 from io import BytesIO
 
-learn = load_learner("/home/isaac/dev/league/lol-web-server/app/models", "minimap.pth")
+learn = load_learner("./app/models", "minimap.pth")
 height = 10
 width = 10
 padding = 10
@@ -125,7 +125,7 @@ def locate_minimap(og_img, user):
     og_y_start = og_height - og_height / height_div
     box = (og_x_start, og_y_start, og_width, og_height)
     img = og_img.crop(box)
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     # Attempt to retrieve the x,y coordinates from the user record
     try:
@@ -138,5 +138,5 @@ def locate_minimap(og_img, user):
         y_coord = predict_y_coord(img)
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
     return img, x_coord, y_coord

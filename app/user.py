@@ -1,6 +1,6 @@
 from tinydb import TinyDB, Query
 
-db = TinyDB('/home/isaac/dev/league/lol-web-server/app/db.json')
+db = TinyDB('./app/db.json')
 User = Query()
 table = db.table('users')
 table.remove(User.id.search('5'))
@@ -19,11 +19,10 @@ def get_user(user_id):
 
     return user
 
-def update_user(x_coord, y_coord, previous_positions, user):
+def update_user(x_coord, y_coord, user):
     table.update(
         {"xstart": x_coord[0],
          "xend": x_coord[1],
          "ystart": y_coord[0],
-         "yend": y_coord[1],
-         "previous_positions": previous_positions},
+         "yend": y_coord[1]},
         User.id == user["id"])

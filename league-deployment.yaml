@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: league-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: league-app
+  template:
+    metadata:
+      labels:
+        run: league-app
+    spec:
+      containers:
+      - name: league-app
+        image: gcr.io/leagueai/league-app:v1
+        imagePullPolicy: Always
