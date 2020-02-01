@@ -132,17 +132,23 @@ def locate_minimap(og_img):
     # Attempt to retrieve the x,y coordinates from the user record
     x_coord = predict_x_coord(img)
     y_coord = predict_y_coord(img)
+    delta_x = x_coord[1] - x_coord[0]
+    delta_y = y_coord[1] - y_coord[0]
+    delta = max(delta_x, delta_y)
+    x_coord = (x_coord[0], x_coord[0] + delta)
+    y_coord = (y_coord[0], y_coord[0] + delta)
+
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
     return img, x_coord, y_coord
 
 
-def locate_mini_map_coords(og_img, x_coord, y_coord):
+def locate_minimap_coords(og_img, x_coord, y_coord):
     img = get_bottom_corner(og_img)
-    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
-    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
-    return img, x_coord, y_coord
+    img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
+    return img

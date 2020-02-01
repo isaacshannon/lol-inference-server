@@ -33,13 +33,13 @@ app.mount('/models', StaticFiles(directory='app/models'))  # use this for docker
 
 @app.route('/')
 async def homepage(request):
-    html_file = path / 'view' / 'capture.html'
+    html_file = path / 'view' / 'test.html'
     return HTMLResponse(html_file.open().read())
 
 
-@app.route('/capture')
+@app.route('/test')
 async def homepage(request):
-    html_file = path / 'view' / 'capture.html'
+    html_file = path / 'view' / 'test.html'
     return HTMLResponse(html_file.open().read())
 
 
@@ -67,12 +67,14 @@ async def findmap(request):
 
 @app.route('/predict', methods=['POST'])
 async def predict(request):
-    img_data = await request.form()
-    img_bytes = get_bytes(img_data)
+    form = await request.form()
+    img_bytes = get_bytes(form)
     src_img = Image.open(io.BytesIO(img_bytes))
+    x_coord = (int(form["x0"]), int(form["x1"]))
+    y_coord = (int(form["y0"]), int(form["y1"]))
+    print(form)
     # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
-
-    src_map, x_coord, y_coord = minimap.locate_minimap(src_img)
+    src_map = minimap.locate_minimap_coords(src_img, x_coord, y_coord)
     lolmap = src_map.resize((150, 150))
 
     pred_img = predict_locations(lolmap, src_map)

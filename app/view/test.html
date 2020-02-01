@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>gank.ai</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../static/capture.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
           integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
     <link rel='stylesheet' href='../static/style.css'>
 </head>
 <body>
+
+<div class="camera">
+    <div class="pure-u-1">
+        <button id="locatebutton" class="button-capture pure-button center">Locate mini-map</button>
+    </div>
+</div>
 
 <div class="camera">
     <div class="pure-u-1">
@@ -28,8 +35,7 @@
     </div>
 </div>
 
-
-<script src='../static/capture.js'></script>
+<script>startUngank()</script>
 
 </body>
 </html>
