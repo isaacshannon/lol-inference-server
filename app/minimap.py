@@ -57,11 +57,11 @@ def predict_x_coord(img):
     start_found = False
     for i in range(len(rows[max_row]) - 1):
         if rows[max_row][i] == "map" and rows[max_row][i + 1] == "map" and not start_found:
-            start = (i+1) * width
+            start = i * width
             start_found = True
             continue
         if rows[max_row][i] != "map" and rows[max_row][i + 1] != "map" and start_found:
-            end = i * width
+            end = (i-1) * width
             break
 
     return start, end
@@ -90,8 +90,6 @@ def predict_y_coord(img):
             max_count = count
             max_column = k
 
-    print(columns[max_column])
-
     start = 0
     end = img_height
     start_found = False
@@ -110,13 +108,13 @@ def predict_y_coord(img):
                 and columns[max_column][i + 3] == "nomap" \
                 and columns[max_column][i + 4] == "nomap" \
                 and start_found:
-            end = (i+2) * width
+            end = (i+1) * width
             break
 
     return start, end
 
 
-def locate_minimap(og_img, user):
+def get_bottom_corner(og_img):
     # The minimap will be in the bottom right of the image
     width_div = 3
     height_div = 2
@@ -124,18 +122,26 @@ def locate_minimap(og_img, user):
     og_x_start = og_width - og_width / width_div
     og_y_start = og_height - og_height / height_div
     box = (og_x_start, og_y_start, og_width, og_height)
-    img = og_img.crop(box)
+    return og_img.crop(box)
+
+
+def locate_minimap(og_img):
+    img = get_bottom_corner(og_img)
     # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     # Attempt to retrieve the x,y coordinates from the user record
-    try:
-        x_coord = (user["xstart"], user["xend"])
-    except KeyError:
-        x_coord = predict_x_coord(img)
-    try:
-        y_coord = (user["ystart"], user["yend"])
-    except KeyError:
-        y_coord = predict_y_coord(img)
+    x_coord = predict_x_coord(img)
+    y_coord = predict_y_coord(img)
+    box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
+    img = img.crop(box)
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")
+    return img, x_coord, y_coord
+
+
+def locate_mini_map_coords(og_img, x_coord, y_coord):
+    img = get_bottom_corner(og_img)
+    # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
+
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
     img = img.crop(box)
     # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_mini_map.png")

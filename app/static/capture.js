@@ -9,6 +9,7 @@
   var photo = null;
   var resPhoto = null;
   var startbutton = null;
+  var userID = Math.floor(Math.random() * 10000000);
 
   constraints = {
     video: {
@@ -75,10 +76,10 @@
 
       $.ajax({
           type: "POST",
-          url: "http://localhost:5000/predict",
+          url: "https://ungank.com/predict",
           data: {
              imgBase64: canvasData,
-             user: 5,
+             user: userID,
           }
         }).done(function(d) {
             console.log(d)

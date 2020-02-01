@@ -1,13 +1,12 @@
-apiVersion: "v1"
-kind: "Service"
+apiVersion: v1
+kind: Service
 metadata:
-  name: "league-app-service"
-  namespace: "default"
+  name: league-nodeport-service
 spec:
-  ports:
-    - port: 80
-      targetPort: 8080
   selector:
     run: "league-app"
-  type: "LoadBalancer"
-  loadBalancerIP: "104.197.59.31"
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080

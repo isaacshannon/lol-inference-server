@@ -1,4 +1,3 @@
-tinydb
 pillow==6.2.1
 aiofiles==0.4.0
 aiohttp==3.5.4
@@ -11,3 +10,4 @@ starlette==0.12.0
 uvicorn==0.7.1
 python-multipart==0.0.5
 opencv-python==4.1.1.26
+pymongo[srv]==3.8.0
