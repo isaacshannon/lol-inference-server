@@ -72,7 +72,6 @@ async def predict(request):
     src_img = Image.open(io.BytesIO(img_bytes))
     x_coord = (int(form["x0"]), int(form["x1"]))
     y_coord = (int(form["y0"]), int(form["y1"]))
-    print(form)
     # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
     src_map = minimap.locate_minimap_coords(src_img, x_coord, y_coord)
     lolmap = src_map.resize((150, 150))
