@@ -6,5 +6,4 @@ venv
 app/tmp/*
 *.png
 *.yaml
-commands.txt
 *.pyc

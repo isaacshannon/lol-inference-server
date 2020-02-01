@@ -8,36 +8,21 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 import base64
-from PIL import Image, ImageDraw
+from PIL import Image
 
 import minimap
 from predicter import predict_locations
-
-# from app import minimap
-# from app.predicter import predict_locations
-# from app.user import update_user, get_user
-
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
 
 path = Path(__file__).parent
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
                    allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
-app.mount('/static', StaticFiles(directory='app/static'))  # use this for docker run
-app.mount('/models', StaticFiles(directory='app/models'))  # use this for docker run
+app.mount('/static', StaticFiles(directory='app/static'))
+app.mount('/models', StaticFiles(directory='app/models'))
 
-
-# app.mount('/static', StaticFiles(directory='/home/isaac/dev/league/lol-web-server/app/static'))
 
 @app.route('/')
-async def homepage(request):
-    html_file = path / 'view' / 'test.html'
-    return HTMLResponse(html_file.open().read())
-
-
-@app.route('/test')
 async def homepage(request):
     html_file = path / 'view' / 'test.html'
     return HTMLResponse(html_file.open().read())
