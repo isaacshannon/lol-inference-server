@@ -1,14 +1,18 @@
 import unittest
 from PIL import Image
 from app import minimap
+import os
 
 
 class MinimapTestCase(unittest.TestCase):
     def test_locate_minimap(self):
-        img = Image.open("./app/test/last-img.png")
-        res, x, y = minimap.locate_minimap(img)
-        res.save("/home/isaac/dev/league/lol-web-server/app/test/minimap_test.png")
-        self.assertEqual(True, True)
+        images = os.listdir("/home/isaac/dev/league/lol-web-server/app/test/full_map")
+        # images = ["1.png"]
+        for im in images:
+            img = Image.open(f"./app/test/full_map/{im}")
+            res, x, y = minimap.locate_minimap(img)
+            res.save(f"/home/isaac/dev/league/lol-web-server/app/test/full_result/{im}")
+            self.assertEqual(True, True)
 
 
 if __name__ == '__main__':

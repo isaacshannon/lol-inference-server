@@ -37,8 +37,8 @@ def predict_x_coord(img):
     for i in range(num_rows):
         rows[i] = []
 
-    for i in range(0, num_rows):
-        for j in range(0, img_width, width):
+    for i in range(0, num_rows, 3):
+        for j in range(0, img_width, width*2):
             box = (j - padding, i * row_height - padding, j + width + padding, i * row_height + height + padding)
             a = img.crop(box)
             prediction = predict_img(a)
@@ -55,13 +55,15 @@ def predict_x_coord(img):
     start = 0
     end = img_width
     start_found = False
-    for i in range(len(rows[max_row]) - 1):
-        if rows[max_row][i] == "map" and rows[max_row][i + 1] == "map" and not start_found:
-            start = i * width
+    for i in range(len(rows[max_row]) - 4):
+        window = rows[max_row][i:i + 4]
+        if window.count("map") > 2 and not start_found:
+            start = (2 * i) * width
             start_found = True
             continue
-        if rows[max_row][i] != "map" and rows[max_row][i + 1] != "map" and start_found:
-            end = (i-1) * width
+
+        if window.count("map") < 2 and start_found:
+            end = (2 * i-1) * width
             break
 
     return start, end
@@ -75,8 +77,8 @@ def predict_y_coord(img):
     for i in range(num_columns):
         columns[i] = []
 
-    for i in range(0, num_columns):
-        for j in range(0, img_height, height):
+    for i in range(0, num_columns, 3):
+        for j in range(0, img_height, height*2):
             box = (i * column_width - padding, j - padding, i * column_width + width + padding, j + height + padding)
             a = img.crop(box)
             prediction = predict_img(a)
@@ -94,21 +96,14 @@ def predict_y_coord(img):
     end = img_height
     start_found = False
     for i in range(len(columns[max_column]) - 4):
-        if columns[max_column][i] == "map" \
-                and columns[max_column][i + 1] == "map" \
-                and columns[max_column][i + 2] == "map" \
-                and columns[max_column][i + 3] == "map" \
-                and not start_found:
-            start = i * width
+        window = columns[max_column][i:i+4]
+        if window.count("map") > 2 and not start_found:
+            start = (2 * i) * width
             start_found = True
             continue
-        if columns[max_column][i] == "map" \
-                and columns[max_column][i + 1] == "map" \
-                and columns[max_column][i + 2] == "map" \
-                and columns[max_column][i + 3] == "nomap" \
-                and columns[max_column][i + 4] == "nomap" \
-                and start_found:
-            end = (i+1) * width
+
+        if window.count("map") < 2 and start_found:
+            end = (2*i-1) * width
             break
 
     return start, end
