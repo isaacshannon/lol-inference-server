@@ -37,7 +37,7 @@ def predict_x_coord(img):
     for i in range(num_rows):
         rows[i] = []
 
-    for i in range(0, num_rows, 3):
+    for i in range(0, num_rows, 2):
         for j in range(0, img_width, width*2):
             box = (j - padding, i * row_height - padding, j + width + padding, i * row_height + height + padding)
             a = img.crop(box)
@@ -47,6 +47,7 @@ def predict_x_coord(img):
     max_count = 0
     max_row = 0
     for k, v in rows.items():
+        print(v)
         count = v.count("map")
         if count > max_count:
             max_count = count

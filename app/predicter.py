@@ -29,10 +29,11 @@ def predict_locations(aug_map, og_map):
 
     return out
 
+
 def draw_grid(draw, labels, grid_mult):
     grid = 5 * grid_mult
     fill = (255, 255, 255, 96)
     for l in labels:
-        x = l[0] *  grid
-        y = l[1] *  grid
+        x = l[0] * grid - 10
+        y = l[1] * grid + 15
         draw.rectangle((x, y, x + grid, y + grid), fill=fill)
