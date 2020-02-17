@@ -36,9 +36,10 @@ def predict_x_coord(img):
     row_count = None  # A running count of which row column has a "map" value.
     map_rows = 0  # A count of rows which likely contain a map.
     for i in range(num_rows - 1, 0, -2):
-        predictions, is_map = get_row_predictions(i * row_height, img)
-        print(predictions)
+        predictions = get_row_predictions(i * row_height, img)
+        # print(predictions)
         # ignore this row, it doesn't contain a map
+        is_map = predictions.count(1) > 12
         if not is_map:
             continue
 
@@ -51,7 +52,7 @@ def predict_x_coord(img):
         # To avoid running expensive predictions, we only want 2 rows which likely contain maps.
         if map_rows >= 2:
             break
-    print(row_count)
+    # print(row_count)
     return get_start_end(row_count, width, img.size[0])
 
 
@@ -68,7 +69,7 @@ def get_row_predictions(y, img):
         "nomap": 0,
     }
     predictions = [pred_map[p] for p in predictions]
-    return predictions, predictions.count(1) > 12
+    return predictions
 
 
 def predict_y_coord(img):
@@ -78,8 +79,10 @@ def predict_y_coord(img):
     column_count = None  # A running count of which column row has a "map" value.
     map_columns = 0  # A count of rows which likely contain a map.
     for i in range(num_columns - 1, 0, -2):
-        predictions, is_map = get_column_predictions(i * column_width, img)
+        predictions = get_column_predictions(i * column_width, img)
+        print(predictions)
         # ignore this row, it doesn't contain a map
+        is_map = predictions.count(1) > 12
         if not is_map:
             continue
 
@@ -92,6 +95,7 @@ def predict_y_coord(img):
         # To avoid running expensive predictions, we only want 2 columns which likely contain maps.
         if map_columns >= 2:
             break
+    print(column_count)
     return get_start_end(column_count, height, img.size[1])
 
 
@@ -108,7 +112,7 @@ def get_column_predictions(x, img):
         "nomap": 0,
     }
     predictions = [pred_map[p] for p in predictions]
-    return predictions, predictions.count(1) > 5
+    return predictions
 
 
 def get_start_end(counts, inc, max_val):
@@ -130,20 +134,8 @@ def get_start_end(counts, inc, max_val):
         end = max_val
     return start, end
 
-
-def get_bottom_corner(og_img):
-    # The minimap will be in the bottom right of the image
-    width_div = 3
-    height_div = 2
-    og_width, og_height = og_img.size
-    og_x_start = og_width - og_width / width_div
-    og_y_start = og_height - og_height / height_div
-    box = (og_x_start, og_y_start, og_width, og_height)
-    return og_img.crop(box)
-
-
 def locate_minimap(og_img):
-    img = get_bottom_corner(og_img)
+    img = og_img
     # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     # Attempt to retrieve the x,y coordinates from the user record
@@ -162,7 +154,7 @@ def locate_minimap(og_img):
 
 
 def locate_minimap_coords(og_img, x_coord, y_coord):
-    img = get_bottom_corner(og_img)
+    img = og_img
     # img.save("/home/isaac/dev/league/lol-web-server/app/test/last_bottom_right.png")
 
     box = (x_coord[0], y_coord[0], x_coord[1], y_coord[1])
