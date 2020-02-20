@@ -26,6 +26,7 @@ def predict_locations(aug_map, og_map):
 
     draw_grid(draw, preds, grid_mult)
     out = Image.alpha_composite(og_map, overlay)
+    out = out.resize((300, 300), Image.BICUBIC)
 
     return out
 

@@ -1,19 +1,15 @@
-import aiohttp
-import asyncio
 import uvicorn
-from fastai.vision import *
 from io import BytesIO
 from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
-from starlette.responses import HTMLResponse, JSONResponse
+from starlette.responses import JSONResponse
 from starlette.staticfiles import StaticFiles
 import base64
 from PIL import Image
+import sys
 
 import minimap
 from predicter import predict_locations
-
-path = Path(__file__).parent
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
@@ -22,18 +18,12 @@ app.mount('/static', StaticFiles(directory='app/static'))
 app.mount('/models', StaticFiles(directory='app/models'))
 
 
-@app.route('/')
-async def homepage(request):
-    html_file = path / 'view' / 'test.html'
-    return HTMLResponse(html_file.open().read())
-
-
 @app.route('/findmap', methods=['POST'])
 async def findmap(request):
     img_data = await request.form()
 
     img_bytes = get_bytes(img_data)
-    src_img = Image.open(io.BytesIO(img_bytes))
+    src_img = Image.open(BytesIO(img_bytes))
     # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
 
     src_map, x_coord, y_coord = minimap.locate_minimap(src_img)
@@ -54,12 +44,9 @@ async def findmap(request):
 async def predict(request):
     form = await request.form()
     img_bytes = get_bytes(form)
-    src_img = Image.open(io.BytesIO(img_bytes))
-    x_coord = (int(form["x0"]), int(form["x1"]))
-    y_coord = (int(form["y0"]), int(form["y1"]))
-    # img.save("/home/isaac/dev/league/lol-web-server/app/last-img.png")
-    src_map = minimap.locate_minimap_coords(src_img, x_coord, y_coord)
-    lolmap = src_map.resize((150, 150))
+    src_img = Image.open(BytesIO(img_bytes))
+    src_map = minimap.locate_minimap(src_img)
+    lolmap = src_map.resize((150, 150), Image.BICUBIC)
 
     pred_img = predict_locations(lolmap, src_map)
     data = BytesIO()
