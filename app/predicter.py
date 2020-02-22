@@ -7,7 +7,7 @@ from fastai.vision import open_image
 learn = load_learner("./app/models", "predict.pth")
 
 
-def predict_locations(aug_map, og_map):
+def predict_locations(aug_map):
     imgByteArr = BytesIO()
     aug_map.save(imgByteArr, format='PNG')
     # lolmap.save("/home/isaac/dev/league/lol-web-server/app/composite.png")
@@ -19,16 +19,9 @@ def predict_locations(aug_map, og_map):
     for i in range(len(predictions)):
         if predictions[i] > 0.2:
             preds.append(img_classes[i])
-    preds = [(int(p.split(";")[0]), int(p.split(";")[1]), p.split(";")[2]) for p in preds]
-    overlay = Image.new('RGBA', og_map.size, (255, 255, 255, 0))
-    draw = ImageDraw.Draw(overlay)
-    grid_mult = og_map.size[0]/aug_map.size[0]
+    preds = [[int(p.split(";")[0]), int(p.split(";")[1])] for p in preds]
 
-    draw_grid(draw, preds, grid_mult)
-    out = Image.alpha_composite(og_map, overlay)
-    out = out.resize((300, 300), Image.BICUBIC)
-
-    return out
+    return preds
 
 
 def draw_grid(draw, labels, grid_mult):
