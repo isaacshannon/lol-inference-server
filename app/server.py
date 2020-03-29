@@ -5,17 +5,22 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse
 from starlette.staticfiles import StaticFiles
 import base64
-from PIL import Image
+from PIL import Image, ImageEnhance
 import sys
+import time
 
 import minimap
 from predicter import predict_locations
+import logging
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
                    allow_headers=['X-Requested-With', 'Content-Type', 'Access-Control-Allow-Origin'])
 app.mount('/static', StaticFiles(directory='app/static'))
 app.mount('/models', StaticFiles(directory='app/models'))
+
+logs = logging.getLogger("request data")
+
 
 @app.route('/predict', methods=['POST'])
 async def predict(request):
@@ -24,8 +29,15 @@ async def predict(request):
     src_img = Image.open(BytesIO(img_bytes))
     src_map = minimap.locate_minimap(src_img)
     lolmap = src_map.resize((150, 150), Image.BICUBIC)
+    converter = ImageEnhance.Color(lolmap)
+    lolmap = converter.enhance(3)
 
+    start_time = time.time()
     preds = predict_locations(lolmap)
+    elapsed_time = time.time() - start_time
+
+    logs.info(f"Prediction time: {elapsed_time}")
+
     return JSONResponse({'predictions': preds})
 
 

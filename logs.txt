@@ -1,0 +1,2292 @@
+Connected to MongoDB!
+2020/02/24 22:17:24 {"msg":"Listening..."}
+2020/02/24 22:17:26 {"msg":"serving landing"}
+2020/02/24 22:17:27 {"msg":"serving landing"}
+2020/02/24 22:17:28 {"msg":"serving log"}
+2020/02/24 22:17:28 {"msg":"client log","name":"capture button starting stream"}
+2020/02/24 22:17:29 {"msg":"serving log"}
+2020/02/24 22:17:29 {"msg":"client log","name":"stream started"}
+2020/02/24 22:17:30 {"msg":"serving log"}
+2020/02/24 22:17:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:30 {"msg":"serving predict"}
+2020/02/24 22:17:30 {"msg":"saving image"}
+2020/02/24 22:17:30 {"prediction time":"228.407881ms"}
+2020/02/24 22:17:30 {"msg":"serving log"}
+2020/02/24 22:17:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:31 {"msg":"serving predict"}
+2020/02/24 22:17:31 {"msg":"saving image"}
+2020/02/24 22:17:31 {"prediction time":"342.286527ms"}
+2020/02/24 22:17:31 {"msg":"serving log"}
+2020/02/24 22:17:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:31 {"msg":"serving log"}
+2020/02/24 22:17:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:31 {"msg":"serving predict"}
+2020/02/24 22:17:32 {"msg":"saving image"}
+2020/02/24 22:17:32 {"prediction time":"291.182611ms"}
+2020/02/24 22:17:32 {"msg":"serving log"}
+2020/02/24 22:17:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:32 {"msg":"serving predict"}
+2020/02/24 22:17:32 {"msg":"saving image"}
+2020/02/24 22:17:32 {"prediction time":"233.658345ms"}
+2020/02/24 22:17:32 {"msg":"serving log"}
+2020/02/24 22:17:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:33 {"msg":"serving predict"}
+2020/02/24 22:17:33 {"msg":"saving image"}
+2020/02/24 22:17:33 {"prediction time":"270.442121ms"}
+2020/02/24 22:17:34 {"msg":"serving log"}
+2020/02/24 22:17:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:34 {"msg":"serving log"}
+2020/02/24 22:17:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:34 {"msg":"serving predict"}
+2020/02/24 22:17:35 {"msg":"saving image"}
+2020/02/24 22:17:35 {"prediction time":"640.877069ms"}
+2020/02/24 22:17:35 {"msg":"serving log"}
+2020/02/24 22:17:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:35 {"msg":"serving log"}
+2020/02/24 22:17:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:35 {"msg":"serving predict"}
+2020/02/24 22:17:36 {"msg":"saving image"}
+2020/02/24 22:17:36 {"prediction time":"373.995513ms"}
+2020/02/24 22:17:36 {"msg":"serving log"}
+2020/02/24 22:17:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:37 {"msg":"serving log"}
+2020/02/24 22:17:37 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:38 {"msg":"serving log"}
+2020/02/24 22:17:38 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:38 {"msg":"serving log"}
+2020/02/24 22:17:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:39 {"msg":"serving log"}
+2020/02/24 22:17:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:39 {"msg":"serving log"}
+2020/02/24 22:17:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:40 {"msg":"serving log"}
+2020/02/24 22:17:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:40 {"msg":"serving predict"}
+2020/02/24 22:17:40 {"msg":"saving image"}
+2020/02/24 22:17:40 {"prediction time":"500.403391ms"}
+2020/02/24 22:17:41 {"msg":"serving log"}
+2020/02/24 22:17:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:42 {"msg":"serving log"}
+2020/02/24 22:17:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:42 {"msg":"serving predict"}
+2020/02/24 22:17:42 {"msg":"saving image"}
+2020/02/24 22:17:42 {"prediction time":"346.434079ms"}
+2020/02/24 22:17:42 {"msg":"serving log"}
+2020/02/24 22:17:42 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:42 {"msg":"serving log"}
+2020/02/24 22:17:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:43 {"msg":"serving predict"}
+2020/02/24 22:17:43 {"msg":"saving image"}
+2020/02/24 22:17:43 {"prediction time":"367.015665ms"}
+2020/02/24 22:17:43 {"msg":"serving log"}
+2020/02/24 22:17:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:44 {"msg":"serving predict"}
+2020/02/24 22:17:44 {"msg":"saving image"}
+2020/02/24 22:17:44 {"prediction time":"356.543024ms"}
+2020/02/24 22:17:44 {"msg":"serving log"}
+2020/02/24 22:17:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:44 {"msg":"serving log"}
+2020/02/24 22:17:44 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:44 {"msg":"serving predict"}
+2020/02/24 22:17:45 {"msg":"saving image"}
+2020/02/24 22:17:45 {"prediction time":"349.178188ms"}
+2020/02/24 22:17:45 {"msg":"serving log"}
+2020/02/24 22:17:45 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:45 {"msg":"serving predict"}
+2020/02/24 22:17:46 {"msg":"saving image"}
+2020/02/24 22:17:46 {"prediction time":"399.175384ms"}
+2020/02/24 22:17:46 {"msg":"serving log"}
+2020/02/24 22:17:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:46 {"msg":"serving predict"}
+2020/02/24 22:17:47 {"msg":"saving image"}
+2020/02/24 22:17:47 {"prediction time":"412.225389ms"}
+2020/02/24 22:17:47 {"msg":"serving log"}
+2020/02/24 22:17:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:47 {"msg":"serving predict"}
+2020/02/24 22:17:48 {"msg":"saving image"}
+2020/02/24 22:17:48 {"prediction time":"440.948532ms"}
+2020/02/24 22:17:48 {"msg":"serving log"}
+2020/02/24 22:17:48 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:48 {"msg":"serving log"}
+2020/02/24 22:17:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:49 {"msg":"serving log"}
+2020/02/24 22:17:49 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:49 {"msg":"serving predict"}
+2020/02/24 22:17:49 {"msg":"saving image"}
+2020/02/24 22:17:49 {"prediction time":"377.004204ms"}
+2020/02/24 22:17:50 {"msg":"serving log"}
+2020/02/24 22:17:50 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:50 {"msg":"serving predict"}
+2020/02/24 22:17:50 {"msg":"saving image"}
+2020/02/24 22:17:50 {"prediction time":"435.707037ms"}
+2020/02/24 22:17:51 {"msg":"serving log"}
+2020/02/24 22:17:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:51 {"msg":"serving log"}
+2020/02/24 22:17:51 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:51 {"msg":"serving predict"}
+2020/02/24 22:17:51 {"msg":"saving image"}
+2020/02/24 22:17:51 {"prediction time":"336.909478ms"}
+2020/02/24 22:17:51 {"msg":"serving log"}
+2020/02/24 22:17:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:52 {"msg":"serving log"}
+2020/02/24 22:17:52 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:52 {"msg":"serving predict"}
+2020/02/24 22:17:52 {"msg":"saving image"}
+2020/02/24 22:17:52 {"prediction time":"378.106898ms"}
+2020/02/24 22:17:52 {"msg":"serving log"}
+2020/02/24 22:17:52 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:53 {"msg":"serving log"}
+2020/02/24 22:17:53 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:53 {"msg":"serving landing"}
+2020/02/24 22:17:53 {"msg":"serving log"}
+2020/02/24 22:17:53 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:54 {"msg":"serving log"}
+2020/02/24 22:17:54 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:55 {"msg":"serving log"}
+2020/02/24 22:17:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:55 {"msg":"serving predict"}
+2020/02/24 22:17:56 {"msg":"saving image"}
+2020/02/24 22:17:56 {"prediction time":"398.916537ms"}
+2020/02/24 22:17:56 {"msg":"serving log"}
+2020/02/24 22:17:56 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:56 {"msg":"serving landing"}
+2020/02/24 22:17:56 {"msg":"serving predict"}
+2020/02/24 22:17:57 {"msg":"saving image"}
+2020/02/24 22:17:57 {"prediction time":"398.395969ms"}
+2020/02/24 22:17:58 {"msg":"serving log"}
+2020/02/24 22:17:58 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:58 {"msg":"serving predict"}
+2020/02/24 22:17:58 {"msg":"saving image"}
+2020/02/24 22:17:58 {"prediction time":"407.34609ms"}
+2020/02/24 22:17:59 {"msg":"serving log"}
+2020/02/24 22:17:59 {"msg":"client log","prediction received":""}
+2020/02/24 22:17:59 {"msg":"serving log"}
+2020/02/24 22:17:59 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:17:59 {"msg":"serving predict"}
+2020/02/24 22:17:59 {"msg":"saving image"}
+2020/02/24 22:17:59 {"prediction time":"334.683812ms"}
+2020/02/24 22:18:00 {"msg":"serving log"}
+2020/02/24 22:18:00 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:00 {"msg":"serving log"}
+2020/02/24 22:18:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:01 {"msg":"serving predict"}
+2020/02/24 22:18:01 {"msg":"saving image"}
+2020/02/24 22:18:01 {"prediction time":"340.073046ms"}
+2020/02/24 22:18:01 {"msg":"serving log"}
+2020/02/24 22:18:01 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:01 {"msg":"serving log"}
+2020/02/24 22:18:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:01 {"msg":"serving predict"}
+2020/02/24 22:18:02 {"msg":"saving image"}
+2020/02/24 22:18:02 {"prediction time":"363.959117ms"}
+2020/02/24 22:18:02 {"msg":"serving log"}
+2020/02/24 22:18:02 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:02 {"msg":"serving log"}
+2020/02/24 22:18:02 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:05 {"msg":"serving log"}
+2020/02/24 22:18:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:05 {"msg":"serving log"}
+2020/02/24 22:18:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:05 {"msg":"serving predict"}
+2020/02/24 22:18:06 {"msg":"saving image"}
+2020/02/24 22:18:06 {"prediction time":"468.055143ms"}
+2020/02/24 22:18:06 {"msg":"serving log"}
+2020/02/24 22:18:06 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:06 {"msg":"serving predict"}
+2020/02/24 22:18:07 {"msg":"saving image"}
+2020/02/24 22:18:07 {"prediction time":"381.159898ms"}
+2020/02/24 22:18:07 {"msg":"serving log"}
+2020/02/24 22:18:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:07 {"msg":"serving predict"}
+2020/02/24 22:18:08 {"msg":"saving image"}
+2020/02/24 22:18:08 {"prediction time":"445.574962ms"}
+2020/02/24 22:18:08 {"msg":"serving log"}
+2020/02/24 22:18:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:08 {"msg":"serving predict"}
+2020/02/24 22:18:09 {"msg":"saving image"}
+2020/02/24 22:18:09 {"prediction time":"359.596499ms"}
+2020/02/24 22:18:09 {"msg":"serving log"}
+2020/02/24 22:18:09 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:09 {"msg":"serving log"}
+2020/02/24 22:18:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:10 {"msg":"serving log"}
+2020/02/24 22:18:10 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:11 {"msg":"serving log"}
+2020/02/24 22:18:11 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:12 {"msg":"serving log"}
+2020/02/24 22:18:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:12 {"msg":"serving log"}
+2020/02/24 22:18:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:13 {"msg":"serving log"}
+2020/02/24 22:18:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:13 {"msg":"serving predict"}
+2020/02/24 22:18:13 {"msg":"saving image"}
+2020/02/24 22:18:13 {"prediction time":"365.008323ms"}
+2020/02/24 22:18:13 {"msg":"serving log"}
+2020/02/24 22:18:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:14 {"msg":"serving log"}
+2020/02/24 22:18:14 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:14 {"msg":"serving log"}
+2020/02/24 22:18:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:14 {"msg":"serving predict"}
+2020/02/24 22:18:15 {"msg":"saving image"}
+2020/02/24 22:18:15 {"prediction time":"347.962148ms"}
+2020/02/24 22:18:15 {"msg":"serving log"}
+2020/02/24 22:18:15 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:15 {"msg":"serving log"}
+2020/02/24 22:18:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:16 {"msg":"serving log"}
+2020/02/24 22:18:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:17 {"msg":"serving log"}
+2020/02/24 22:18:17 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:18 {"msg":"serving log"}
+2020/02/24 22:18:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:18 {"msg":"serving predict"}
+2020/02/24 22:18:19 {"msg":"saving image"}
+2020/02/24 22:18:19 {"prediction time":"359.898832ms"}
+2020/02/24 22:18:19 {"msg":"serving log"}
+2020/02/24 22:18:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:19 {"msg":"serving log"}
+2020/02/24 22:18:19 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:20 {"msg":"serving log"}
+2020/02/24 22:18:20 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:21 {"msg":"serving log"}
+2020/02/24 22:18:21 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:21 {"msg":"serving predict"}
+2020/02/24 22:18:21 {"msg":"saving image"}
+2020/02/24 22:18:21 {"prediction time":"369.326793ms"}
+2020/02/24 22:18:22 {"msg":"serving predict"}
+2020/02/24 22:18:22 {"msg":"saving image"}
+2020/02/24 22:18:22 {"prediction time":"342.892578ms"}
+2020/02/24 22:18:22 {"msg":"serving log"}
+2020/02/24 22:18:22 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:23 {"msg":"serving log"}
+2020/02/24 22:18:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:23 {"msg":"serving log"}
+2020/02/24 22:18:23 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:24 {"msg":"serving log"}
+2020/02/24 22:18:24 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:24 {"msg":"serving log"}
+2020/02/24 22:18:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:24 {"msg":"serving predict"}
+2020/02/24 22:18:25 {"msg":"saving image"}
+2020/02/24 22:18:25 {"prediction time":"341.169183ms"}
+2020/02/24 22:18:25 {"msg":"serving log"}
+2020/02/24 22:18:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:25 {"msg":"serving predict"}
+2020/02/24 22:18:26 {"msg":"saving image"}
+2020/02/24 22:18:26 {"prediction time":"345.427253ms"}
+2020/02/24 22:18:26 {"msg":"serving log"}
+2020/02/24 22:18:26 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:27 {"msg":"serving predict"}
+2020/02/24 22:18:27 {"msg":"saving image"}
+2020/02/24 22:18:27 {"prediction time":"332.805189ms"}
+2020/02/24 22:18:27 {"msg":"serving log"}
+2020/02/24 22:18:27 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:28 {"msg":"serving log"}
+2020/02/24 22:18:28 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:28 {"msg":"serving log"}
+2020/02/24 22:18:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:29 {"msg":"serving log"}
+2020/02/24 22:18:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:29 {"msg":"serving log"}
+2020/02/24 22:18:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:30 {"msg":"serving log"}
+2020/02/24 22:18:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:31 {"msg":"serving log"}
+2020/02/24 22:18:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:31 {"msg":"serving log"}
+2020/02/24 22:18:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:31 {"msg":"serving predict"}
+2020/02/24 22:18:32 {"msg":"saving image"}
+2020/02/24 22:18:32 {"prediction time":"355.402583ms"}
+2020/02/24 22:18:32 {"msg":"serving predict"}
+2020/02/24 22:18:33 {"msg":"saving image"}
+2020/02/24 22:18:33 {"prediction time":"331.592052ms"}
+2020/02/24 22:18:33 {"msg":"serving log"}
+2020/02/24 22:18:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:33 {"msg":"serving log"}
+2020/02/24 22:18:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:33 {"msg":"serving log"}
+2020/02/24 22:18:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:34 {"msg":"serving log"}
+2020/02/24 22:18:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:34 {"msg":"serving log"}
+2020/02/24 22:18:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:35 {"msg":"serving log"}
+2020/02/24 22:18:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:35 {"msg":"serving predict"}
+2020/02/24 22:18:35 {"msg":"saving image"}
+2020/02/24 22:18:35 {"prediction time":"355.309503ms"}
+2020/02/24 22:18:35 {"msg":"serving log"}
+2020/02/24 22:18:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:36 {"msg":"serving predict"}
+2020/02/24 22:18:36 {"msg":"saving image"}
+2020/02/24 22:18:36 {"prediction time":"337.48735ms"}
+2020/02/24 22:18:36 {"msg":"serving log"}
+2020/02/24 22:18:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:36 {"msg":"serving predict"}
+2020/02/24 22:18:37 {"msg":"saving image"}
+2020/02/24 22:18:37 {"prediction time":"326.594519ms"}
+2020/02/24 22:18:37 {"msg":"serving predict"}
+2020/02/24 22:18:38 {"msg":"saving image"}
+2020/02/24 22:18:38 {"prediction time":"395.090746ms"}
+2020/02/24 22:18:38 {"msg":"serving log"}
+2020/02/24 22:18:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:38 {"msg":"serving predict"}
+2020/02/24 22:18:38 {"msg":"saving image"}
+2020/02/24 22:18:38 {"prediction time":"346.637812ms"}
+2020/02/24 22:18:39 {"msg":"serving log"}
+2020/02/24 22:18:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:39 {"msg":"serving log"}
+2020/02/24 22:18:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:39 {"msg":"serving predict"}
+2020/02/24 22:18:39 {"msg":"saving image"}
+2020/02/24 22:18:39 {"prediction time":"322.664748ms"}
+2020/02/24 22:18:39 {"msg":"serving log"}
+2020/02/24 22:18:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:40 {"msg":"serving log"}
+2020/02/24 22:18:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:40 {"msg":"serving log"}
+2020/02/24 22:18:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:41 {"msg":"serving log"}
+2020/02/24 22:18:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:41 {"msg":"serving predict"}
+2020/02/24 22:18:41 {"msg":"saving image"}
+2020/02/24 22:18:41 {"prediction time":"345.594836ms"}
+2020/02/24 22:18:41 {"msg":"serving log"}
+2020/02/24 22:18:41 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:41 {"msg":"serving log"}
+2020/02/24 22:18:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:42 {"msg":"serving predict"}
+2020/02/24 22:18:42 {"msg":"saving image"}
+2020/02/24 22:18:42 {"prediction time":"353.097022ms"}
+2020/02/24 22:18:42 {"msg":"serving log"}
+2020/02/24 22:18:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:42 {"msg":"serving predict"}
+2020/02/24 22:18:43 {"msg":"saving image"}
+2020/02/24 22:18:43 {"prediction time":"331.686001ms"}
+2020/02/24 22:18:43 {"msg":"serving log"}
+2020/02/24 22:18:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:44 {"msg":"serving log"}
+2020/02/24 22:18:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:44 {"msg":"serving predict"}
+2020/02/24 22:18:44 {"msg":"saving image"}
+2020/02/24 22:18:44 {"prediction time":"327.425256ms"}
+2020/02/24 22:18:44 {"msg":"serving log"}
+2020/02/24 22:18:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:45 {"msg":"serving predict"}
+2020/02/24 22:18:45 {"msg":"saving image"}
+2020/02/24 22:18:45 {"prediction time":"354.471123ms"}
+2020/02/24 22:18:45 {"msg":"serving log"}
+2020/02/24 22:18:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:46 {"msg":"serving log"}
+2020/02/24 22:18:46 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:46 {"msg":"serving predict"}
+2020/02/24 22:18:46 {"msg":"saving image"}
+2020/02/24 22:18:46 {"prediction time":"298.798393ms"}
+2020/02/24 22:18:46 {"msg":"serving log"}
+2020/02/24 22:18:46 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:47 {"msg":"serving log"}
+2020/02/24 22:18:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:47 {"msg":"serving log"}
+2020/02/24 22:18:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:48 {"msg":"serving log"}
+2020/02/24 22:18:48 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:48 {"msg":"serving log"}
+2020/02/24 22:18:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:49 {"msg":"serving log"}
+2020/02/24 22:18:49 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:49 {"msg":"serving predict"}
+2020/02/24 22:18:50 {"msg":"saving image"}
+2020/02/24 22:18:50 {"prediction time":"692.668788ms"}
+2020/02/24 22:18:50 {"msg":"serving log"}
+2020/02/24 22:18:50 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:51 {"msg":"serving log"}
+2020/02/24 22:18:51 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:51 {"msg":"serving predict"}
+2020/02/24 22:18:52 {"msg":"saving image"}
+2020/02/24 22:18:52 {"prediction time":"334.732548ms"}
+2020/02/24 22:18:52 {"msg":"serving landing"}
+2020/02/24 22:18:52 {"msg":"serving predict"}
+2020/02/24 22:18:52 {"msg":"saving image"}
+2020/02/24 22:18:52 {"prediction time":"315.44234ms"}
+2020/02/24 22:18:53 {"msg":"serving landing"}
+2020/02/24 22:18:53 {"msg":"serving log"}
+2020/02/24 22:18:53 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:53 {"msg":"serving predict"}
+2020/02/24 22:18:53 {"msg":"saving image"}
+2020/02/24 22:18:53 {"prediction time":"305.139097ms"}
+2020/02/24 22:18:53 {"msg":"serving log"}
+2020/02/24 22:18:53 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:54 {"msg":"serving predict"}
+2020/02/24 22:18:54 {"msg":"saving image"}
+2020/02/24 22:18:54 {"prediction time":"305.852247ms"}
+2020/02/24 22:18:54 {"msg":"serving log"}
+2020/02/24 22:18:54 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:55 {"msg":"serving landing"}
+2020/02/24 22:18:55 {"msg":"serving log"}
+2020/02/24 22:18:55 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:55 {"msg":"serving predict"}
+2020/02/24 22:18:56 {"msg":"saving image"}
+2020/02/24 22:18:56 {"prediction time":"352.659411ms"}
+2020/02/24 22:18:56 {"msg":"serving log"}
+2020/02/24 22:18:56 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:57 {"msg":"serving log"}
+2020/02/24 22:18:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:18:57 {"msg":"serving log"}
+2020/02/24 22:18:57 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:58 {"msg":"serving log"}
+2020/02/24 22:18:58 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:58 {"msg":"serving predict"}
+2020/02/24 22:18:58 {"msg":"saving image"}
+2020/02/24 22:18:58 {"prediction time":"335.261151ms"}
+2020/02/24 22:18:59 {"msg":"serving log"}
+2020/02/24 22:18:59 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:18:59 {"msg":"serving predict"}
+2020/02/24 22:18:59 {"msg":"saving image"}
+2020/02/24 22:18:59 {"prediction time":"361.385312ms"}
+2020/02/24 22:19:00 {"msg":"serving log"}
+2020/02/24 22:19:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:00 {"msg":"serving predict"}
+2020/02/24 22:19:00 {"msg":"saving image"}
+2020/02/24 22:19:00 {"prediction time":"379.128393ms"}
+2020/02/24 22:19:00 {"msg":"serving log"}
+2020/02/24 22:19:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:01 {"msg":"serving predict"}
+2020/02/24 22:19:01 {"msg":"saving image"}
+2020/02/24 22:19:01 {"prediction time":"327.817011ms"}
+2020/02/24 22:19:01 {"msg":"serving log"}
+2020/02/24 22:19:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:02 {"msg":"serving log"}
+2020/02/24 22:19:02 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:02 {"msg":"serving log"}
+2020/02/24 22:19:02 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:02 {"msg":"serving predict"}
+2020/02/24 22:19:03 {"msg":"saving image"}
+2020/02/24 22:19:03 {"prediction time":"327.033629ms"}
+2020/02/24 22:19:04 {"msg":"serving predict"}
+2020/02/24 22:19:04 {"msg":"saving image"}
+2020/02/24 22:19:04 {"prediction time":"362.779673ms"}
+2020/02/24 22:19:04 {"msg":"serving log"}
+2020/02/24 22:19:04 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:05 {"msg":"serving log"}
+2020/02/24 22:19:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:05 {"msg":"serving predict"}
+2020/02/24 22:19:05 {"msg":"saving image"}
+2020/02/24 22:19:05 {"prediction time":"381.483962ms"}
+2020/02/24 22:19:06 {"msg":"serving log"}
+2020/02/24 22:19:06 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:06 {"msg":"serving log"}
+2020/02/24 22:19:06 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:07 {"msg":"serving log"}
+2020/02/24 22:19:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:07 {"msg":"serving log"}
+2020/02/24 22:19:07 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:07 {"msg":"serving predict"}
+2020/02/24 22:19:08 {"msg":"saving image"}
+2020/02/24 22:19:08 {"prediction time":"361.216282ms"}
+2020/02/24 22:19:08 {"msg":"serving log"}
+2020/02/24 22:19:08 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:08 {"msg":"serving log"}
+2020/02/24 22:19:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:08 {"msg":"serving predict"}
+2020/02/24 22:19:09 {"msg":"saving image"}
+2020/02/24 22:19:09 {"prediction time":"343.56311ms"}
+2020/02/24 22:19:09 {"msg":"serving log"}
+2020/02/24 22:19:09 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:09 {"msg":"serving log"}
+2020/02/24 22:19:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:10 {"msg":"serving log"}
+2020/02/24 22:19:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:10 {"msg":"serving log"}
+2020/02/24 22:19:10 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:11 {"msg":"serving log"}
+2020/02/24 22:19:11 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:11 {"msg":"serving log"}
+2020/02/24 22:19:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:11 {"msg":"serving predict"}
+2020/02/24 22:19:11 {"msg":"saving image"}
+2020/02/24 22:19:11 {"prediction time":"339.701675ms"}
+2020/02/24 22:19:11 {"msg":"serving log"}
+2020/02/24 22:19:11 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:12 {"msg":"serving log"}
+2020/02/24 22:19:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:12 {"msg":"serving log"}
+2020/02/24 22:19:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:13 {"msg":"serving log"}
+2020/02/24 22:19:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:13 {"msg":"serving log"}
+2020/02/24 22:19:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:13 {"msg":"serving log"}
+2020/02/24 22:19:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:13 {"msg":"serving predict"}
+2020/02/24 22:19:14 {"msg":"saving image"}
+2020/02/24 22:19:14 {"prediction time":"389.664217ms"}
+2020/02/24 22:19:14 {"msg":"serving log"}
+2020/02/24 22:19:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:15 {"msg":"serving log"}
+2020/02/24 22:19:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:15 {"msg":"serving predict"}
+2020/02/24 22:19:16 {"msg":"saving image"}
+2020/02/24 22:19:16 {"prediction time":"347.86091ms"}
+2020/02/24 22:19:16 {"msg":"serving log"}
+2020/02/24 22:19:16 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:16 {"msg":"serving predict"}
+2020/02/24 22:19:16 {"msg":"saving image"}
+2020/02/24 22:19:16 {"prediction time":"348.733107ms"}
+2020/02/24 22:19:16 {"msg":"serving log"}
+2020/02/24 22:19:16 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:17 {"msg":"serving predict"}
+2020/02/24 22:19:17 {"msg":"saving image"}
+2020/02/24 22:19:17 {"prediction time":"339.617054ms"}
+2020/02/24 22:19:17 {"msg":"serving log"}
+2020/02/24 22:19:17 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:18 {"msg":"serving log"}
+2020/02/24 22:19:18 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:18 {"msg":"serving predict"}
+2020/02/24 22:19:18 {"msg":"saving image"}
+2020/02/24 22:19:18 {"prediction time":"382.358863ms"}
+2020/02/24 22:19:18 {"msg":"serving log"}
+2020/02/24 22:19:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:19 {"msg":"serving log"}
+2020/02/24 22:19:19 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:19 {"msg":"serving log"}
+2020/02/24 22:19:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:20 {"msg":"serving log"}
+2020/02/24 22:19:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:20 {"msg":"serving predict"}
+2020/02/24 22:19:20 {"msg":"saving image"}
+2020/02/24 22:19:20 {"prediction time":"325.442505ms"}
+2020/02/24 22:19:20 {"msg":"serving log"}
+2020/02/24 22:19:20 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:21 {"msg":"serving log"}
+2020/02/24 22:19:21 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:21 {"msg":"serving predict"}
+2020/02/24 22:19:22 {"msg":"saving image"}
+2020/02/24 22:19:22 {"prediction time":"349.666003ms"}
+2020/02/24 22:19:22 {"msg":"serving log"}
+2020/02/24 22:19:22 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:22 {"msg":"serving predict"}
+2020/02/24 22:19:22 {"msg":"saving image"}
+2020/02/24 22:19:22 {"prediction time":"340.074351ms"}
+2020/02/24 22:19:23 {"msg":"serving log"}
+2020/02/24 22:19:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:23 {"msg":"serving log"}
+2020/02/24 22:19:23 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:23 {"msg":"serving log"}
+2020/02/24 22:19:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:24 {"msg":"serving log"}
+2020/02/24 22:19:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:25 {"msg":"serving predict"}
+2020/02/24 22:19:25 {"msg":"saving image"}
+2020/02/24 22:19:25 {"prediction time":"364.618839ms"}
+2020/02/24 22:19:25 {"msg":"serving log"}
+2020/02/24 22:19:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:26 {"msg":"serving log"}
+2020/02/24 22:19:26 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:26 {"msg":"serving log"}
+2020/02/24 22:19:26 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:26 {"msg":"serving predict"}
+2020/02/24 22:19:27 {"msg":"saving image"}
+2020/02/24 22:19:27 {"prediction time":"341.519847ms"}
+2020/02/24 22:19:27 {"msg":"serving log"}
+2020/02/24 22:19:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:27 {"msg":"serving predict"}
+2020/02/24 22:19:28 {"msg":"saving image"}
+2020/02/24 22:19:28 {"prediction time":"365.48087ms"}
+2020/02/24 22:19:28 {"msg":"serving log"}
+2020/02/24 22:19:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:28 {"msg":"serving predict"}
+2020/02/24 22:19:28 {"msg":"saving image"}
+2020/02/24 22:19:28 {"prediction time":"334.796796ms"}
+2020/02/24 22:19:29 {"msg":"serving log"}
+2020/02/24 22:19:29 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:29 {"msg":"serving log"}
+2020/02/24 22:19:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:30 {"msg":"serving log"}
+2020/02/24 22:19:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:30 {"msg":"serving log"}
+2020/02/24 22:19:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:31 {"msg":"serving predict"}
+2020/02/24 22:19:31 {"msg":"saving image"}
+2020/02/24 22:19:31 {"prediction time":"323.16675ms"}
+2020/02/24 22:19:31 {"msg":"serving log"}
+2020/02/24 22:19:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:32 {"msg":"serving log"}
+2020/02/24 22:19:32 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:32 {"msg":"serving predict"}
+2020/02/24 22:19:32 {"msg":"saving image"}
+2020/02/24 22:19:32 {"prediction time":"321.436652ms"}
+2020/02/24 22:19:32 {"msg":"serving log"}
+2020/02/24 22:19:32 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:32 {"msg":"serving predict"}
+2020/02/24 22:19:33 {"msg":"saving image"}
+2020/02/24 22:19:33 {"prediction time":"360.622531ms"}
+2020/02/24 22:19:33 {"msg":"serving log"}
+2020/02/24 22:19:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:33 {"msg":"serving log"}
+2020/02/24 22:19:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:33 {"msg":"serving predict"}
+2020/02/24 22:19:34 {"msg":"saving image"}
+2020/02/24 22:19:34 {"prediction time":"365.651418ms"}
+2020/02/24 22:19:34 {"msg":"serving log"}
+2020/02/24 22:19:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:34 {"msg":"serving log"}
+2020/02/24 22:19:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:34 {"msg":"serving predict"}
+2020/02/24 22:19:35 {"msg":"saving image"}
+2020/02/24 22:19:35 {"prediction time":"350.901975ms"}
+2020/02/24 22:19:35 {"msg":"serving log"}
+2020/02/24 22:19:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:35 {"msg":"serving log"}
+2020/02/24 22:19:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:35 {"msg":"serving predict"}
+2020/02/24 22:19:36 {"msg":"saving image"}
+2020/02/24 22:19:36 {"prediction time":"378.043905ms"}
+2020/02/24 22:19:37 {"msg":"serving predict"}
+2020/02/24 22:19:37 {"msg":"saving image"}
+2020/02/24 22:19:37 {"prediction time":"326.906464ms"}
+2020/02/24 22:19:39 {"msg":"serving log"}
+2020/02/24 22:19:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:39 {"msg":"serving predict"}
+2020/02/24 22:19:39 {"msg":"saving image"}
+2020/02/24 22:19:39 {"prediction time":"345.123285ms"}
+2020/02/24 22:19:39 {"msg":"serving log"}
+2020/02/24 22:19:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:40 {"msg":"serving predict"}
+2020/02/24 22:19:40 {"msg":"saving image"}
+2020/02/24 22:19:40 {"prediction time":"339.824991ms"}
+2020/02/24 22:19:40 {"msg":"serving log"}
+2020/02/24 22:19:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:40 {"msg":"serving log"}
+2020/02/24 22:19:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:42 {"msg":"serving log"}
+2020/02/24 22:19:42 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:42 {"msg":"serving predict"}
+2020/02/24 22:19:43 {"msg":"saving image"}
+2020/02/24 22:19:43 {"prediction time":"320.126412ms"}
+2020/02/24 22:19:43 {"msg":"serving log"}
+2020/02/24 22:19:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:43 {"msg":"serving log"}
+2020/02/24 22:19:43 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:43 {"msg":"serving predict"}
+2020/02/24 22:19:43 {"msg":"saving image"}
+2020/02/24 22:19:43 {"prediction time":"354.37013ms"}
+2020/02/24 22:19:44 {"msg":"serving log"}
+2020/02/24 22:19:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:45 {"msg":"serving log"}
+2020/02/24 22:19:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:46 {"msg":"serving log"}
+2020/02/24 22:19:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:46 {"msg":"serving log"}
+2020/02/24 22:19:46 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:47 {"msg":"serving predict"}
+2020/02/24 22:19:47 {"msg":"saving image"}
+2020/02/24 22:19:47 {"prediction time":"402.174655ms"}
+2020/02/24 22:19:48 {"msg":"serving log"}
+2020/02/24 22:19:48 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:48 {"msg":"serving log"}
+2020/02/24 22:19:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:48 {"msg":"serving predict"}
+2020/02/24 22:19:49 {"msg":"saving image"}
+2020/02/24 22:19:49 {"prediction time":"353.464896ms"}
+2020/02/24 22:19:49 {"msg":"serving log"}
+2020/02/24 22:19:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:50 {"msg":"serving log"}
+2020/02/24 22:19:50 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:50 {"msg":"serving log"}
+2020/02/24 22:19:50 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:51 {"msg":"serving log"}
+2020/02/24 22:19:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:51 {"msg":"serving log"}
+2020/02/24 22:19:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:52 {"msg":"serving landing"}
+2020/02/24 22:19:52 {"msg":"serving predict"}
+2020/02/24 22:19:52 {"msg":"saving image"}
+2020/02/24 22:19:52 {"prediction time":"328.533101ms"}
+2020/02/24 22:19:52 {"msg":"serving log"}
+2020/02/24 22:19:52 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:53 {"msg":"serving predict"}
+2020/02/24 22:19:53 {"msg":"saving image"}
+2020/02/24 22:19:53 {"prediction time":"355.464747ms"}
+2020/02/24 22:19:53 {"msg":"serving log"}
+2020/02/24 22:19:53 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:54 {"msg":"serving log"}
+2020/02/24 22:19:54 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:54 {"msg":"serving predict"}
+2020/02/24 22:19:54 {"msg":"saving image"}
+2020/02/24 22:19:54 {"prediction time":"385.643797ms"}
+2020/02/24 22:19:54 {"msg":"serving log"}
+2020/02/24 22:19:54 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:54 {"msg":"serving log"}
+2020/02/24 22:19:54 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:55 {"msg":"serving log"}
+2020/02/24 22:19:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:56 {"msg":"serving landing"}
+2020/02/24 22:19:56 {"msg":"serving log"}
+2020/02/24 22:19:56 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:56 {"msg":"serving log"}
+2020/02/24 22:19:56 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:56 {"msg":"serving predict"}
+2020/02/24 22:19:57 {"msg":"saving image"}
+2020/02/24 22:19:57 {"prediction time":"335.373072ms"}
+2020/02/24 22:19:57 {"msg":"serving log"}
+2020/02/24 22:19:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:57 {"msg":"serving predict"}
+2020/02/24 22:19:58 {"msg":"saving image"}
+2020/02/24 22:19:58 {"prediction time":"350.924809ms"}
+2020/02/24 22:19:58 {"msg":"serving log"}
+2020/02/24 22:19:58 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:58 {"msg":"serving predict"}
+2020/02/24 22:19:58 {"msg":"saving image"}
+2020/02/24 22:19:58 {"prediction time":"325.300689ms"}
+2020/02/24 22:19:59 {"msg":"serving log"}
+2020/02/24 22:19:59 {"msg":"client log","prediction received":""}
+2020/02/24 22:19:59 {"msg":"serving log"}
+2020/02/24 22:19:59 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:19:59 {"msg":"serving predict"}
+2020/02/24 22:19:59 {"msg":"saving image"}
+2020/02/24 22:19:59 {"prediction time":"289.850798ms"}
+2020/02/24 22:19:59 {"msg":"serving log"}
+2020/02/24 22:19:59 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:00 {"msg":"serving log"}
+2020/02/24 22:20:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:00 {"msg":"serving log"}
+2020/02/24 22:20:00 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:00 {"msg":"serving log"}
+2020/02/24 22:20:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:01 {"msg":"serving predict"}
+2020/02/24 22:20:02 {"msg":"saving image"}
+2020/02/24 22:20:02 {"prediction time":"308.722842ms"}
+2020/02/24 22:20:02 {"msg":"serving log"}
+2020/02/24 22:20:02 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:02 {"msg":"serving log"}
+2020/02/24 22:20:02 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:02 {"msg":"serving predict"}
+2020/02/24 22:20:02 {"msg":"saving image"}
+2020/02/24 22:20:02 {"prediction time":"300.413217ms"}
+2020/02/24 22:20:03 {"msg":"serving log"}
+2020/02/24 22:20:03 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:03 {"msg":"serving log"}
+2020/02/24 22:20:03 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:04 {"msg":"serving log"}
+2020/02/24 22:20:04 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:04 {"msg":"serving log"}
+2020/02/24 22:20:04 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:05 {"msg":"serving log"}
+2020/02/24 22:20:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:05 {"msg":"serving predict"}
+2020/02/24 22:20:05 {"msg":"saving image"}
+2020/02/24 22:20:05 {"prediction time":"347.354211ms"}
+2020/02/24 22:20:05 {"msg":"serving log"}
+2020/02/24 22:20:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:05 {"msg":"serving predict"}
+2020/02/24 22:20:06 {"msg":"saving image"}
+2020/02/24 22:20:06 {"prediction time":"288.525195ms"}
+2020/02/24 22:20:06 {"msg":"serving predict"}
+2020/02/24 22:20:07 {"msg":"saving image"}
+2020/02/24 22:20:07 {"prediction time":"343.759605ms"}
+2020/02/24 22:20:07 {"msg":"serving log"}
+2020/02/24 22:20:07 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:07 {"msg":"serving log"}
+2020/02/24 22:20:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:07 {"msg":"serving predict"}
+2020/02/24 22:20:08 {"msg":"saving image"}
+2020/02/24 22:20:08 {"prediction time":"611.838346ms"}
+2020/02/24 22:20:08 {"msg":"serving log"}
+2020/02/24 22:20:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:08 {"msg":"serving predict"}
+2020/02/24 22:20:09 {"msg":"saving image"}
+2020/02/24 22:20:09 {"prediction time":"326.02746ms"}
+2020/02/24 22:20:09 {"msg":"serving log"}
+2020/02/24 22:20:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:10 {"msg":"serving predict"}
+2020/02/24 22:20:10 {"msg":"saving image"}
+2020/02/24 22:20:10 {"prediction time":"333.579293ms"}
+2020/02/24 22:20:10 {"msg":"serving log"}
+2020/02/24 22:20:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:11 {"msg":"serving log"}
+2020/02/24 22:20:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:11 {"msg":"serving predict"}
+2020/02/24 22:20:11 {"msg":"saving image"}
+2020/02/24 22:20:11 {"prediction time":"351.999589ms"}
+2020/02/24 22:20:12 {"msg":"serving predict"}
+2020/02/24 22:20:13 {"msg":"saving image"}
+2020/02/24 22:20:13 {"prediction time":"338.816741ms"}
+2020/02/24 22:20:13 {"msg":"serving log"}
+2020/02/24 22:20:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:13 {"msg":"serving log"}
+2020/02/24 22:20:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:13 {"msg":"serving predict"}
+2020/02/24 22:20:13 {"msg":"saving image"}
+2020/02/24 22:20:13 {"prediction time":"324.872892ms"}
+2020/02/24 22:20:14 {"msg":"serving log"}
+2020/02/24 22:20:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:14 {"msg":"serving predict"}
+2020/02/24 22:20:14 {"msg":"saving image"}
+2020/02/24 22:20:14 {"prediction time":"327.928277ms"}
+2020/02/24 22:20:15 {"msg":"serving predict"}
+2020/02/24 22:20:15 {"msg":"saving image"}
+2020/02/24 22:20:15 {"prediction time":"338.667954ms"}
+2020/02/24 22:20:15 {"msg":"serving log"}
+2020/02/24 22:20:15 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:16 {"msg":"serving log"}
+2020/02/24 22:20:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:16 {"msg":"serving log"}
+2020/02/24 22:20:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:16 {"msg":"serving predict"}
+2020/02/24 22:20:17 {"msg":"saving image"}
+2020/02/24 22:20:17 {"prediction time":"346.695569ms"}
+2020/02/24 22:20:17 {"msg":"serving log"}
+2020/02/24 22:20:17 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:18 {"msg":"serving log"}
+2020/02/24 22:20:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:19 {"msg":"serving log"}
+2020/02/24 22:20:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:19 {"msg":"serving log"}
+2020/02/24 22:20:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:20 {"msg":"serving log"}
+2020/02/24 22:20:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:20 {"msg":"serving predict"}
+2020/02/24 22:20:20 {"msg":"saving image"}
+2020/02/24 22:20:20 {"prediction time":"337.99944ms"}
+2020/02/24 22:20:20 {"msg":"serving log"}
+2020/02/24 22:20:20 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:22 {"msg":"serving predict"}
+2020/02/24 22:20:22 {"msg":"saving image"}
+2020/02/24 22:20:22 {"prediction time":"319.584606ms"}
+2020/02/24 22:20:22 {"msg":"serving log"}
+2020/02/24 22:20:22 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:22 {"msg":"serving predict"}
+2020/02/24 22:20:23 {"msg":"saving image"}
+2020/02/24 22:20:23 {"prediction time":"327.258762ms"}
+2020/02/24 22:20:23 {"msg":"serving log"}
+2020/02/24 22:20:23 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:24 {"msg":"serving log"}
+2020/02/24 22:20:24 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:25 {"msg":"serving log"}
+2020/02/24 22:20:25 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:25 {"msg":"serving predict"}
+2020/02/24 22:20:25 {"msg":"saving image"}
+2020/02/24 22:20:25 {"prediction time":"349.019348ms"}
+2020/02/24 22:20:25 {"msg":"serving log"}
+2020/02/24 22:20:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:26 {"msg":"serving predict"}
+2020/02/24 22:20:26 {"msg":"saving image"}
+2020/02/24 22:20:26 {"prediction time":"347.513366ms"}
+2020/02/24 22:20:27 {"msg":"serving predict"}
+2020/02/24 22:20:27 {"msg":"saving image"}
+2020/02/24 22:20:27 {"prediction time":"333.273769ms"}
+2020/02/24 22:20:28 {"msg":"serving log"}
+2020/02/24 22:20:28 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:28 {"msg":"serving predict"}
+2020/02/24 22:20:28 {"msg":"saving image"}
+2020/02/24 22:20:28 {"prediction time":"341.343918ms"}
+2020/02/24 22:20:28 {"msg":"serving log"}
+2020/02/24 22:20:28 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:28 {"msg":"serving predict"}
+2020/02/24 22:20:29 {"msg":"saving image"}
+2020/02/24 22:20:29 {"prediction time":"853.470657ms"}
+2020/02/24 22:20:29 {"msg":"serving log"}
+2020/02/24 22:20:29 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:30 {"msg":"serving log"}
+2020/02/24 22:20:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:30 {"msg":"serving predict"}
+2020/02/24 22:20:30 {"msg":"saving image"}
+2020/02/24 22:20:30 {"prediction time":"423.32959ms"}
+2020/02/24 22:20:31 {"msg":"serving log"}
+2020/02/24 22:20:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:31 {"msg":"serving log"}
+2020/02/24 22:20:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:31 {"msg":"serving log"}
+2020/02/24 22:20:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:32 {"msg":"serving log"}
+2020/02/24 22:20:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:33 {"msg":"serving log"}
+2020/02/24 22:20:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:33 {"msg":"serving predict"}
+2020/02/24 22:20:33 {"msg":"saving image"}
+2020/02/24 22:20:33 {"prediction time":"331.242954ms"}
+2020/02/24 22:20:34 {"msg":"serving predict"}
+2020/02/24 22:20:34 {"msg":"saving image"}
+2020/02/24 22:20:34 {"prediction time":"320.859312ms"}
+2020/02/24 22:20:34 {"msg":"serving log"}
+2020/02/24 22:20:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:35 {"msg":"serving log"}
+2020/02/24 22:20:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:35 {"msg":"serving predict"}
+2020/02/24 22:20:35 {"msg":"saving image"}
+2020/02/24 22:20:35 {"prediction time":"385.532347ms"}
+2020/02/24 22:20:36 {"msg":"serving log"}
+2020/02/24 22:20:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:36 {"msg":"serving log"}
+2020/02/24 22:20:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:36 {"msg":"serving log"}
+2020/02/24 22:20:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:37 {"msg":"serving predict"}
+2020/02/24 22:20:37 {"msg":"saving image"}
+2020/02/24 22:20:37 {"prediction time":"342.047656ms"}
+2020/02/24 22:20:37 {"msg":"serving log"}
+2020/02/24 22:20:37 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:37 {"msg":"serving log"}
+2020/02/24 22:20:37 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:37 {"msg":"serving predict"}
+2020/02/24 22:20:38 {"msg":"saving image"}
+2020/02/24 22:20:38 {"prediction time":"360.703279ms"}
+2020/02/24 22:20:38 {"msg":"serving log"}
+2020/02/24 22:20:38 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:39 {"msg":"serving log"}
+2020/02/24 22:20:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:39 {"msg":"serving log"}
+2020/02/24 22:20:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:39 {"msg":"serving predict"}
+2020/02/24 22:20:40 {"msg":"saving image"}
+2020/02/24 22:20:40 {"prediction time":"337.936722ms"}
+2020/02/24 22:20:40 {"msg":"serving log"}
+2020/02/24 22:20:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:41 {"msg":"serving log"}
+2020/02/24 22:20:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:42 {"msg":"serving log"}
+2020/02/24 22:20:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:42 {"msg":"serving predict"}
+2020/02/24 22:20:42 {"msg":"saving image"}
+2020/02/24 22:20:42 {"prediction time":"329.16198ms"}
+2020/02/24 22:20:42 {"msg":"serving log"}
+2020/02/24 22:20:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:42 {"msg":"serving predict"}
+2020/02/24 22:20:43 {"msg":"saving image"}
+2020/02/24 22:20:43 {"prediction time":"334.769353ms"}
+2020/02/24 22:20:43 {"msg":"serving log"}
+2020/02/24 22:20:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:43 {"msg":"serving predict"}
+2020/02/24 22:20:44 {"msg":"saving image"}
+2020/02/24 22:20:44 {"prediction time":"394.056878ms"}
+2020/02/24 22:20:44 {"msg":"serving log"}
+2020/02/24 22:20:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:44 {"msg":"serving log"}
+2020/02/24 22:20:44 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:44 {"msg":"serving predict"}
+2020/02/24 22:20:45 {"msg":"saving image"}
+2020/02/24 22:20:45 {"prediction time":"336.930251ms"}
+2020/02/24 22:20:45 {"msg":"serving log"}
+2020/02/24 22:20:45 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:46 {"msg":"serving log"}
+2020/02/24 22:20:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:46 {"msg":"serving predict"}
+2020/02/24 22:20:46 {"msg":"saving image"}
+2020/02/24 22:20:46 {"prediction time":"332.924623ms"}
+2020/02/24 22:20:47 {"msg":"serving predict"}
+2020/02/24 22:20:47 {"msg":"saving image"}
+2020/02/24 22:20:47 {"prediction time":"331.925336ms"}
+2020/02/24 22:20:47 {"msg":"serving log"}
+2020/02/24 22:20:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:47 {"msg":"serving log"}
+2020/02/24 22:20:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:48 {"msg":"serving predict"}
+2020/02/24 22:20:48 {"msg":"saving image"}
+2020/02/24 22:20:48 {"prediction time":"334.268647ms"}
+2020/02/24 22:20:48 {"msg":"serving predict"}
+2020/02/24 22:20:49 {"msg":"saving image"}
+2020/02/24 22:20:49 {"prediction time":"345.903715ms"}
+2020/02/24 22:20:49 {"msg":"serving log"}
+2020/02/24 22:20:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:49 {"msg":"serving predict"}
+2020/02/24 22:20:50 {"msg":"saving image"}
+2020/02/24 22:20:50 {"prediction time":"367.929577ms"}
+2020/02/24 22:20:50 {"msg":"serving log"}
+2020/02/24 22:20:50 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:50 {"msg":"serving log"}
+2020/02/24 22:20:50 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:51 {"msg":"serving log"}
+2020/02/24 22:20:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:51 {"msg":"serving log"}
+2020/02/24 22:20:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:52 {"msg":"serving landing"}
+2020/02/24 22:20:52 {"msg":"serving log"}
+2020/02/24 22:20:52 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:52 {"msg":"serving log"}
+2020/02/24 22:20:52 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:53 {"msg":"serving predict"}
+2020/02/24 22:20:53 {"msg":"saving image"}
+2020/02/24 22:20:53 {"prediction time":"337.286876ms"}
+2020/02/24 22:20:53 {"msg":"serving log"}
+2020/02/24 22:20:53 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:53 {"msg":"serving predict"}
+2020/02/24 22:20:54 {"msg":"saving image"}
+2020/02/24 22:20:54 {"prediction time":"422.220543ms"}
+2020/02/24 22:20:54 {"msg":"serving log"}
+2020/02/24 22:20:54 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:54 {"msg":"serving predict"}
+2020/02/24 22:20:55 {"msg":"serving landing"}
+2020/02/24 22:20:55 {"msg":"saving image"}
+2020/02/24 22:20:55 {"prediction time":"394.027714ms"}
+2020/02/24 22:20:55 {"msg":"serving log"}
+2020/02/24 22:20:55 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:55 {"msg":"serving log"}
+2020/02/24 22:20:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:55 {"msg":"serving predict"}
+2020/02/24 22:20:55 {"msg":"serving landing"}
+2020/02/24 22:20:56 {"msg":"serving landing"}
+2020/02/24 22:20:56 {"msg":"saving image"}
+2020/02/24 22:20:56 {"prediction time":"377.618937ms"}
+2020/02/24 22:20:56 {"msg":"serving log"}
+2020/02/24 22:20:56 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:57 {"msg":"serving log"}
+2020/02/24 22:20:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:57 {"msg":"serving log"}
+2020/02/24 22:20:57 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:57 {"msg":"serving log"}
+2020/02/24 22:20:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:58 {"msg":"serving log"}
+2020/02/24 22:20:58 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:20:58 {"msg":"serving predict"}
+2020/02/24 22:20:58 {"msg":"saving image"}
+2020/02/24 22:20:58 {"prediction time":"338.24801ms"}
+2020/02/24 22:20:58 {"msg":"serving log"}
+2020/02/24 22:20:58 {"msg":"client log","prediction received":""}
+2020/02/24 22:20:59 {"msg":"serving predict"}
+2020/02/24 22:20:59 {"msg":"saving image"}
+2020/02/24 22:20:59 {"prediction time":"344.141032ms"}
+2020/02/24 22:21:00 {"msg":"serving predict"}
+2020/02/24 22:21:01 {"msg":"saving image"}
+2020/02/24 22:21:01 {"prediction time":"332.74763ms"}
+2020/02/24 22:21:01 {"msg":"serving log"}
+2020/02/24 22:21:01 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:01 {"msg":"serving log"}
+2020/02/24 22:21:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:01 {"msg":"serving predict"}
+2020/02/24 22:21:01 {"msg":"saving image"}
+2020/02/24 22:21:01 {"prediction time":"350.162569ms"}
+2020/02/24 22:21:02 {"msg":"serving log"}
+2020/02/24 22:21:02 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:02 {"msg":"serving predict"}
+2020/02/24 22:21:02 {"msg":"saving image"}
+2020/02/24 22:21:02 {"prediction time":"341.940106ms"}
+2020/02/24 22:21:03 {"msg":"serving log"}
+2020/02/24 22:21:03 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:04 {"msg":"serving predict"}
+2020/02/24 22:21:04 {"msg":"saving image"}
+2020/02/24 22:21:04 {"prediction time":"351.158703ms"}
+2020/02/24 22:21:04 {"msg":"serving log"}
+2020/02/24 22:21:04 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:05 {"msg":"serving predict"}
+2020/02/24 22:21:05 {"msg":"saving image"}
+2020/02/24 22:21:05 {"prediction time":"389.152679ms"}
+2020/02/24 22:21:05 {"msg":"serving log"}
+2020/02/24 22:21:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:07 {"msg":"serving predict"}
+2020/02/24 22:21:07 {"msg":"saving image"}
+2020/02/24 22:21:07 {"prediction time":"941.364282ms"}
+2020/02/24 22:21:08 {"msg":"serving log"}
+2020/02/24 22:21:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:09 {"msg":"serving log"}
+2020/02/24 22:21:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:09 {"msg":"serving predict"}
+2020/02/24 22:21:10 {"msg":"saving image"}
+2020/02/24 22:21:10 {"prediction time":"683.264516ms"}
+2020/02/24 22:21:10 {"msg":"serving log"}
+2020/02/24 22:21:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:11 {"msg":"serving log"}
+2020/02/24 22:21:11 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:11 {"msg":"serving log"}
+2020/02/24 22:21:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:12 {"msg":"serving log"}
+2020/02/24 22:21:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:12 {"msg":"serving log"}
+2020/02/24 22:21:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:12 {"msg":"serving predict"}
+2020/02/24 22:21:12 {"msg":"saving image"}
+2020/02/24 22:21:12 {"prediction time":"336.668026ms"}
+2020/02/24 22:21:13 {"msg":"serving log"}
+2020/02/24 22:21:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:13 {"msg":"serving log"}
+2020/02/24 22:21:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:14 {"msg":"serving log"}
+2020/02/24 22:21:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:14 {"msg":"serving predict"}
+2020/02/24 22:21:14 {"msg":"saving image"}
+2020/02/24 22:21:14 {"prediction time":"341.43775ms"}
+2020/02/24 22:21:14 {"msg":"serving log"}
+2020/02/24 22:21:14 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:15 {"msg":"serving log"}
+2020/02/24 22:21:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:16 {"msg":"serving log"}
+2020/02/24 22:21:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:17 {"msg":"serving log"}
+2020/02/24 22:21:17 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:17 {"msg":"serving predict"}
+2020/02/24 22:21:18 {"msg":"saving image"}
+2020/02/24 22:21:18 {"prediction time":"402.953874ms"}
+2020/02/24 22:21:18 {"msg":"serving log"}
+2020/02/24 22:21:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:18 {"msg":"serving log"}
+2020/02/24 22:21:18 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:19 {"msg":"serving log"}
+2020/02/24 22:21:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:19 {"msg":"serving predict"}
+2020/02/24 22:21:20 {"msg":"saving image"}
+2020/02/24 22:21:20 {"prediction time":"692.191055ms"}
+2020/02/24 22:21:21 {"msg":"serving log"}
+2020/02/24 22:21:21 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:21 {"msg":"serving predict"}
+2020/02/24 22:21:22 {"msg":"saving image"}
+2020/02/24 22:21:22 {"prediction time":"360.69397ms"}
+2020/02/24 22:21:22 {"msg":"serving log"}
+2020/02/24 22:21:22 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:22 {"msg":"serving predict"}
+2020/02/24 22:21:23 {"msg":"saving image"}
+2020/02/24 22:21:23 {"prediction time":"329.27488ms"}
+2020/02/24 22:21:23 {"msg":"serving log"}
+2020/02/24 22:21:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:24 {"msg":"serving log"}
+2020/02/24 22:21:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:24 {"msg":"serving predict"}
+2020/02/24 22:21:25 {"msg":"saving image"}
+2020/02/24 22:21:25 {"prediction time":"629.653721ms"}
+2020/02/24 22:21:25 {"msg":"serving predict"}
+2020/02/24 22:21:26 {"msg":"saving image"}
+2020/02/24 22:21:26 {"prediction time":"388.249353ms"}
+2020/02/24 22:21:26 {"msg":"serving log"}
+2020/02/24 22:21:26 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:27 {"msg":"serving log"}
+2020/02/24 22:21:27 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:27 {"msg":"serving log"}
+2020/02/24 22:21:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:28 {"msg":"serving log"}
+2020/02/24 22:21:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:28 {"msg":"serving predict"}
+2020/02/24 22:21:28 {"msg":"saving image"}
+2020/02/24 22:21:28 {"prediction time":"318.915875ms"}
+2020/02/24 22:21:28 {"msg":"serving log"}
+2020/02/24 22:21:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:29 {"msg":"serving predict"}
+2020/02/24 22:21:29 {"msg":"saving image"}
+2020/02/24 22:21:29 {"prediction time":"346.390958ms"}
+2020/02/24 22:21:30 {"msg":"serving predict"}
+2020/02/24 22:21:30 {"msg":"saving image"}
+2020/02/24 22:21:30 {"prediction time":"318.010671ms"}
+2020/02/24 22:21:30 {"msg":"serving log"}
+2020/02/24 22:21:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:21:30 {"msg":"serving log"}
+2020/02/24 22:21:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:21:30 {"msg":"serving predict"}
+2020/02/24 22:21:31 {"msg":"saving image"}
+2020/02/24 22:21:31 {"prediction time":"204.109691ms"}
+2020/02/24 22:21:56 {"msg":"serving landing"}
+2020/02/24 22:22:56 {"msg":"serving landing"}
+2020/02/24 22:22:59 {"msg":"serving capture"}
+2020/02/24 22:23:04 {"msg":"serving log"}
+2020/02/24 22:23:04 {"msg":"client log","name":"stream started"}
+2020/02/24 22:23:05 {"msg":"serving log"}
+2020/02/24 22:23:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:05 {"msg":"serving log"}
+2020/02/24 22:23:05 {"msg":"client log","name":"capture button starting predictions"}
+2020/02/24 22:23:06 {"msg":"serving log"}
+2020/02/24 22:23:06 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:06 {"msg":"serving predict"}
+2020/02/24 22:23:06 {"msg":"saving image"}
+2020/02/24 22:23:06 {"prediction time":"331.780909ms"}
+2020/02/24 22:23:06 {"msg":"serving log"}
+2020/02/24 22:23:06 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:07 {"msg":"serving log"}
+2020/02/24 22:23:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:07 {"msg":"serving predict"}
+2020/02/24 22:23:07 {"msg":"saving image"}
+2020/02/24 22:23:07 {"prediction time":"425.474436ms"}
+2020/02/24 22:23:08 {"msg":"serving log"}
+2020/02/24 22:23:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:08 {"msg":"serving predict"}
+2020/02/24 22:23:08 {"msg":"saving image"}
+2020/02/24 22:23:08 {"prediction time":"329.972864ms"}
+2020/02/24 22:23:08 {"msg":"serving predict"}
+2020/02/24 22:23:09 {"msg":"saving image"}
+2020/02/24 22:23:09 {"prediction time":"390.463985ms"}
+2020/02/24 22:23:09 {"msg":"serving log"}
+2020/02/24 22:23:09 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:09 {"msg":"serving log"}
+2020/02/24 22:23:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:10 {"msg":"serving log"}
+2020/02/24 22:23:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:10 {"msg":"serving predict"}
+2020/02/24 22:23:11 {"msg":"saving image"}
+2020/02/24 22:23:11 {"prediction time":"322.807609ms"}
+2020/02/24 22:23:11 {"msg":"serving log"}
+2020/02/24 22:23:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:11 {"msg":"serving predict"}
+2020/02/24 22:23:11 {"msg":"saving image"}
+2020/02/24 22:23:11 {"prediction time":"329.989854ms"}
+2020/02/24 22:23:12 {"msg":"serving log"}
+2020/02/24 22:23:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:12 {"msg":"serving predict"}
+2020/02/24 22:23:12 {"msg":"saving image"}
+2020/02/24 22:23:12 {"prediction time":"316.331549ms"}
+2020/02/24 22:23:12 {"msg":"serving log"}
+2020/02/24 22:23:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:13 {"msg":"serving predict"}
+2020/02/24 22:23:13 {"msg":"saving image"}
+2020/02/24 22:23:13 {"prediction time":"298.332934ms"}
+2020/02/24 22:23:13 {"msg":"serving log"}
+2020/02/24 22:23:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:14 {"msg":"serving predict"}
+2020/02/24 22:23:15 {"msg":"saving image"}
+2020/02/24 22:23:15 {"prediction time":"297.616441ms"}
+2020/02/24 22:23:15 {"msg":"serving log"}
+2020/02/24 22:23:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:16 {"msg":"serving log"}
+2020/02/24 22:23:16 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:16 {"msg":"serving log"}
+2020/02/24 22:23:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:16 {"msg":"serving predict"}
+2020/02/24 22:23:16 {"msg":"saving image"}
+2020/02/24 22:23:16 {"prediction time":"347.829903ms"}
+2020/02/24 22:23:17 {"msg":"serving log"}
+2020/02/24 22:23:17 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:18 {"msg":"serving log"}
+2020/02/24 22:23:18 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:18 {"msg":"serving log"}
+2020/02/24 22:23:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:19 {"msg":"serving log"}
+2020/02/24 22:23:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:19 {"msg":"serving log"}
+2020/02/24 22:23:19 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:19 {"msg":"serving predict"}
+2020/02/24 22:23:20 {"msg":"saving image"}
+2020/02/24 22:23:20 {"prediction time":"334.620537ms"}
+2020/02/24 22:23:20 {"msg":"serving predict"}
+2020/02/24 22:23:21 {"msg":"saving image"}
+2020/02/24 22:23:21 {"prediction time":"364.060821ms"}
+2020/02/24 22:23:21 {"msg":"serving predict"}
+2020/02/24 22:23:21 {"msg":"saving image"}
+2020/02/24 22:23:21 {"prediction time":"312.316193ms"}
+2020/02/24 22:23:22 {"msg":"serving log"}
+2020/02/24 22:23:22 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:22 {"msg":"serving predict"}
+2020/02/24 22:23:22 {"msg":"saving image"}
+2020/02/24 22:23:22 {"prediction time":"328.642408ms"}
+2020/02/24 22:23:23 {"msg":"serving log"}
+2020/02/24 22:23:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:23 {"msg":"serving predict"}
+2020/02/24 22:23:23 {"msg":"saving image"}
+2020/02/24 22:23:23 {"prediction time":"339.446418ms"}
+2020/02/24 22:23:24 {"msg":"serving predict"}
+2020/02/24 22:23:24 {"msg":"saving image"}
+2020/02/24 22:23:24 {"prediction time":"353.262809ms"}
+2020/02/24 22:23:25 {"msg":"serving predict"}
+2020/02/24 22:23:25 {"msg":"saving image"}
+2020/02/24 22:23:25 {"prediction time":"333.99772ms"}
+2020/02/24 22:23:25 {"msg":"serving log"}
+2020/02/24 22:23:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:25 {"msg":"serving log"}
+2020/02/24 22:23:25 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:25 {"msg":"serving predict"}
+2020/02/24 22:23:26 {"msg":"saving image"}
+2020/02/24 22:23:26 {"prediction time":"416.767203ms"}
+2020/02/24 22:23:26 {"msg":"serving log"}
+2020/02/24 22:23:26 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:27 {"msg":"serving log"}
+2020/02/24 22:23:27 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:27 {"msg":"serving log"}
+2020/02/24 22:23:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:28 {"msg":"serving log"}
+2020/02/24 22:23:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:28 {"msg":"serving log"}
+2020/02/24 22:23:28 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:28 {"msg":"serving predict"}
+2020/02/24 22:23:28 {"msg":"saving image"}
+2020/02/24 22:23:28 {"prediction time":"341.970832ms"}
+2020/02/24 22:23:28 {"msg":"serving log"}
+2020/02/24 22:23:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:29 {"msg":"serving log"}
+2020/02/24 22:23:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:30 {"msg":"serving log"}
+2020/02/24 22:23:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:30 {"msg":"serving log"}
+2020/02/24 22:23:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:30 {"msg":"serving predict"}
+2020/02/24 22:23:31 {"msg":"saving image"}
+2020/02/24 22:23:31 {"prediction time":"379.737926ms"}
+2020/02/24 22:23:31 {"msg":"serving log"}
+2020/02/24 22:23:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:31 {"msg":"serving log"}
+2020/02/24 22:23:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:31 {"msg":"serving predict"}
+2020/02/24 22:23:32 {"msg":"saving image"}
+2020/02/24 22:23:32 {"prediction time":"328.97199ms"}
+2020/02/24 22:23:32 {"msg":"serving log"}
+2020/02/24 22:23:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:32 {"msg":"serving log"}
+2020/02/24 22:23:32 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:33 {"msg":"serving log"}
+2020/02/24 22:23:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:33 {"msg":"serving predict"}
+2020/02/24 22:23:33 {"msg":"saving image"}
+2020/02/24 22:23:33 {"prediction time":"331.258342ms"}
+2020/02/24 22:23:34 {"msg":"serving log"}
+2020/02/24 22:23:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:34 {"msg":"serving log"}
+2020/02/24 22:23:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:34 {"msg":"serving predict"}
+2020/02/24 22:23:34 {"msg":"saving image"}
+2020/02/24 22:23:34 {"prediction time":"334.771906ms"}
+2020/02/24 22:23:34 {"msg":"serving log"}
+2020/02/24 22:23:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:35 {"msg":"serving predict"}
+2020/02/24 22:23:35 {"msg":"saving image"}
+2020/02/24 22:23:35 {"prediction time":"337.447951ms"}
+2020/02/24 22:23:36 {"msg":"serving log"}
+2020/02/24 22:23:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:37 {"msg":"serving log"}
+2020/02/24 22:23:37 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:37 {"msg":"serving predict"}
+2020/02/24 22:23:38 {"msg":"saving image"}
+2020/02/24 22:23:38 {"prediction time":"387.485914ms"}
+2020/02/24 22:23:38 {"msg":"serving log"}
+2020/02/24 22:23:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:39 {"msg":"serving log"}
+2020/02/24 22:23:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:39 {"msg":"serving predict"}
+2020/02/24 22:23:40 {"msg":"saving image"}
+2020/02/24 22:23:40 {"prediction time":"382.053258ms"}
+2020/02/24 22:23:40 {"msg":"serving log"}
+2020/02/24 22:23:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:40 {"msg":"serving log"}
+2020/02/24 22:23:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:40 {"msg":"serving predict"}
+2020/02/24 22:23:40 {"msg":"saving image"}
+2020/02/24 22:23:40 {"prediction time":"347.157821ms"}
+2020/02/24 22:23:41 {"msg":"serving log"}
+2020/02/24 22:23:41 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:41 {"msg":"serving predict"}
+2020/02/24 22:23:41 {"msg":"saving image"}
+2020/02/24 22:23:41 {"prediction time":"360.587029ms"}
+2020/02/24 22:23:42 {"msg":"serving log"}
+2020/02/24 22:23:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:42 {"msg":"serving predict"}
+2020/02/24 22:23:42 {"msg":"saving image"}
+2020/02/24 22:23:42 {"prediction time":"326.385742ms"}
+2020/02/24 22:23:43 {"msg":"serving predict"}
+2020/02/24 22:23:44 {"msg":"saving image"}
+2020/02/24 22:23:44 {"prediction time":"333.3667ms"}
+2020/02/24 22:23:44 {"msg":"serving log"}
+2020/02/24 22:23:44 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:44 {"msg":"serving predict"}
+2020/02/24 22:23:45 {"msg":"saving image"}
+2020/02/24 22:23:45 {"prediction time":"342.540351ms"}
+2020/02/24 22:23:45 {"msg":"serving log"}
+2020/02/24 22:23:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:45 {"msg":"serving predict"}
+2020/02/24 22:23:45 {"msg":"saving image"}
+2020/02/24 22:23:45 {"prediction time":"357.96201ms"}
+2020/02/24 22:23:46 {"msg":"serving predict"}
+2020/02/24 22:23:46 {"msg":"saving image"}
+2020/02/24 22:23:46 {"prediction time":"362.108301ms"}
+2020/02/24 22:23:47 {"msg":"serving log"}
+2020/02/24 22:23:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:47 {"msg":"serving predict"}
+2020/02/24 22:23:47 {"msg":"saving image"}
+2020/02/24 22:23:47 {"prediction time":"420.764667ms"}
+2020/02/24 22:23:47 {"msg":"serving log"}
+2020/02/24 22:23:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:48 {"msg":"serving log"}
+2020/02/24 22:23:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:48 {"msg":"serving predict"}
+2020/02/24 22:23:48 {"msg":"saving image"}
+2020/02/24 22:23:48 {"prediction time":"341.913359ms"}
+2020/02/24 22:23:49 {"msg":"serving log"}
+2020/02/24 22:23:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:49 {"msg":"serving predict"}
+2020/02/24 22:23:50 {"msg":"saving image"}
+2020/02/24 22:23:50 {"prediction time":"320.570168ms"}
+2020/02/24 22:23:50 {"msg":"serving log"}
+2020/02/24 22:23:50 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:50 {"msg":"serving log"}
+2020/02/24 22:23:50 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:51 {"msg":"serving predict"}
+2020/02/24 22:23:52 {"msg":"saving image"}
+2020/02/24 22:23:52 {"prediction time":"344.262091ms"}
+2020/02/24 22:23:52 {"msg":"serving log"}
+2020/02/24 22:23:52 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:52 {"msg":"serving predict"}
+2020/02/24 22:23:52 {"msg":"saving image"}
+2020/02/24 22:23:52 {"prediction time":"372.798563ms"}
+2020/02/24 22:23:55 {"msg":"serving log"}
+2020/02/24 22:23:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:55 {"msg":"serving predict"}
+2020/02/24 22:23:55 {"msg":"serving landing"}
+2020/02/24 22:23:55 {"msg":"saving image"}
+2020/02/24 22:23:55 {"prediction time":"337.717411ms"}
+2020/02/24 22:23:55 {"msg":"serving log"}
+2020/02/24 22:23:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:56 {"msg":"serving log"}
+2020/02/24 22:23:56 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:56 {"msg":"serving predict"}
+2020/02/24 22:23:57 {"msg":"saving image"}
+2020/02/24 22:23:57 {"prediction time":"343.063546ms"}
+2020/02/24 22:23:57 {"msg":"serving log"}
+2020/02/24 22:23:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:57 {"msg":"serving log"}
+2020/02/24 22:23:57 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:58 {"msg":"serving log"}
+2020/02/24 22:23:58 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:58 {"msg":"serving predict"}
+2020/02/24 22:23:58 {"msg":"saving image"}
+2020/02/24 22:23:58 {"prediction time":"326.524053ms"}
+2020/02/24 22:23:58 {"msg":"serving log"}
+2020/02/24 22:23:58 {"msg":"client log","prediction received":""}
+2020/02/24 22:23:59 {"msg":"serving log"}
+2020/02/24 22:23:59 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:23:59 {"msg":"serving log"}
+2020/02/24 22:23:59 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:00 {"msg":"serving predict"}
+2020/02/24 22:24:00 {"msg":"saving image"}
+2020/02/24 22:24:00 {"prediction time":"356.162108ms"}
+2020/02/24 22:24:00 {"msg":"serving log"}
+2020/02/24 22:24:00 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:01 {"msg":"serving log"}
+2020/02/24 22:24:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:01 {"msg":"serving predict"}
+2020/02/24 22:24:01 {"msg":"saving image"}
+2020/02/24 22:24:01 {"prediction time":"338.668106ms"}
+2020/02/24 22:24:01 {"msg":"serving log"}
+2020/02/24 22:24:01 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:01 {"msg":"serving log"}
+2020/02/24 22:24:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:01 {"msg":"serving predict"}
+2020/02/24 22:24:02 {"msg":"saving image"}
+2020/02/24 22:24:02 {"prediction time":"364.007435ms"}
+2020/02/24 22:24:02 {"msg":"serving log"}
+2020/02/24 22:24:02 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:02 {"msg":"serving predict"}
+2020/02/24 22:24:03 {"msg":"saving image"}
+2020/02/24 22:24:03 {"prediction time":"339.360543ms"}
+2020/02/24 22:24:04 {"msg":"serving log"}
+2020/02/24 22:24:04 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:04 {"msg":"serving predict"}
+2020/02/24 22:24:04 {"msg":"saving image"}
+2020/02/24 22:24:04 {"prediction time":"317.005446ms"}
+2020/02/24 22:24:05 {"msg":"serving predict"}
+2020/02/24 22:24:05 {"msg":"saving image"}
+2020/02/24 22:24:05 {"prediction time":"322.816335ms"}
+2020/02/24 22:24:05 {"msg":"serving log"}
+2020/02/24 22:24:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:05 {"msg":"serving log"}
+2020/02/24 22:24:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:07 {"msg":"serving log"}
+2020/02/24 22:24:07 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:07 {"msg":"serving log"}
+2020/02/24 22:24:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:08 {"msg":"serving log"}
+2020/02/24 22:24:08 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:09 {"msg":"serving predict"}
+2020/02/24 22:24:09 {"msg":"saving image"}
+2020/02/24 22:24:09 {"prediction time":"355.205259ms"}
+2020/02/24 22:24:10 {"msg":"serving predict"}
+2020/02/24 22:24:10 {"msg":"saving image"}
+2020/02/24 22:24:10 {"prediction time":"359.029211ms"}
+2020/02/24 22:24:10 {"msg":"serving log"}
+2020/02/24 22:24:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:12 {"msg":"serving log"}
+2020/02/24 22:24:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:12 {"msg":"serving predict"}
+2020/02/24 22:24:13 {"msg":"saving image"}
+2020/02/24 22:24:13 {"prediction time":"339.046486ms"}
+2020/02/24 22:24:13 {"msg":"serving log"}
+2020/02/24 22:24:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:14 {"msg":"serving log"}
+2020/02/24 22:24:14 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:14 {"msg":"serving log"}
+2020/02/24 22:24:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:15 {"msg":"serving log"}
+2020/02/24 22:24:15 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:15 {"msg":"serving log"}
+2020/02/24 22:24:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:16 {"msg":"serving log"}
+2020/02/24 22:24:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:17 {"msg":"serving log"}
+2020/02/24 22:24:17 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:18 {"msg":"serving log"}
+2020/02/24 22:24:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:19 {"msg":"serving log"}
+2020/02/24 22:24:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:19 {"msg":"serving log"}
+2020/02/24 22:24:19 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:20 {"msg":"serving log"}
+2020/02/24 22:24:20 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:20 {"msg":"serving log"}
+2020/02/24 22:24:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:20 {"msg":"serving predict"}
+2020/02/24 22:24:21 {"msg":"saving image"}
+2020/02/24 22:24:21 {"prediction time":"323.273621ms"}
+2020/02/24 22:24:21 {"msg":"serving log"}
+2020/02/24 22:24:21 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:21 {"msg":"serving log"}
+2020/02/24 22:24:21 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:21 {"msg":"serving predict"}
+2020/02/24 22:24:21 {"msg":"saving image"}
+2020/02/24 22:24:21 {"prediction time":"321.501317ms"}
+2020/02/24 22:24:22 {"msg":"serving log"}
+2020/02/24 22:24:22 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:22 {"msg":"serving predict"}
+2020/02/24 22:24:22 {"msg":"saving image"}
+2020/02/24 22:24:22 {"prediction time":"350.928588ms"}
+2020/02/24 22:24:22 {"msg":"serving log"}
+2020/02/24 22:24:22 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:23 {"msg":"serving predict"}
+2020/02/24 22:24:23 {"msg":"saving image"}
+2020/02/24 22:24:23 {"prediction time":"333.85811ms"}
+2020/02/24 22:24:23 {"msg":"serving log"}
+2020/02/24 22:24:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:24 {"msg":"serving log"}
+2020/02/24 22:24:24 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:24 {"msg":"serving log"}
+2020/02/24 22:24:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:24 {"msg":"serving predict"}
+2020/02/24 22:24:25 {"msg":"saving image"}
+2020/02/24 22:24:25 {"prediction time":"406.235262ms"}
+2020/02/24 22:24:25 {"msg":"serving log"}
+2020/02/24 22:24:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:25 {"msg":"serving predict"}
+2020/02/24 22:24:26 {"msg":"saving image"}
+2020/02/24 22:24:26 {"prediction time":"377.479292ms"}
+2020/02/24 22:24:26 {"msg":"serving predict"}
+2020/02/24 22:24:27 {"msg":"saving image"}
+2020/02/24 22:24:27 {"prediction time":"332.121655ms"}
+2020/02/24 22:24:27 {"msg":"serving log"}
+2020/02/24 22:24:27 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:27 {"msg":"serving log"}
+2020/02/24 22:24:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:27 {"msg":"serving predict"}
+2020/02/24 22:24:27 {"msg":"saving image"}
+2020/02/24 22:24:27 {"prediction time":"357.708898ms"}
+2020/02/24 22:24:27 {"msg":"serving log"}
+2020/02/24 22:24:27 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:28 {"msg":"serving log"}
+2020/02/24 22:24:28 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:28 {"msg":"serving predict"}
+2020/02/24 22:24:28 {"msg":"saving image"}
+2020/02/24 22:24:28 {"prediction time":"393.222849ms"}
+2020/02/24 22:24:28 {"msg":"serving log"}
+2020/02/24 22:24:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:29 {"msg":"serving log"}
+2020/02/24 22:24:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:29 {"msg":"serving predict"}
+2020/02/24 22:24:29 {"msg":"saving image"}
+2020/02/24 22:24:29 {"prediction time":"342.645795ms"}
+2020/02/24 22:24:30 {"msg":"serving log"}
+2020/02/24 22:24:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:30 {"msg":"serving predict"}
+2020/02/24 22:24:30 {"msg":"saving image"}
+2020/02/24 22:24:30 {"prediction time":"356.674586ms"}
+2020/02/24 22:24:30 {"msg":"serving log"}
+2020/02/24 22:24:30 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:31 {"msg":"serving log"}
+2020/02/24 22:24:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:31 {"msg":"serving log"}
+2020/02/24 22:24:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:31 {"msg":"serving predict"}
+2020/02/24 22:24:32 {"msg":"saving image"}
+2020/02/24 22:24:32 {"prediction time":"352.103288ms"}
+2020/02/24 22:24:32 {"msg":"serving log"}
+2020/02/24 22:24:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:33 {"msg":"serving log"}
+2020/02/24 22:24:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:33 {"msg":"serving log"}
+2020/02/24 22:24:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:33 {"msg":"serving predict"}
+2020/02/24 22:24:33 {"msg":"saving image"}
+2020/02/24 22:24:33 {"prediction time":"315.715046ms"}
+2020/02/24 22:24:34 {"msg":"serving log"}
+2020/02/24 22:24:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:34 {"msg":"serving predict"}
+2020/02/24 22:24:34 {"msg":"saving image"}
+2020/02/24 22:24:34 {"prediction time":"343.773789ms"}
+2020/02/24 22:24:34 {"msg":"serving log"}
+2020/02/24 22:24:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:35 {"msg":"serving log"}
+2020/02/24 22:24:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:35 {"msg":"serving log"}
+2020/02/24 22:24:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:36 {"msg":"serving log"}
+2020/02/24 22:24:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:36 {"msg":"serving predict"}
+2020/02/24 22:24:36 {"msg":"saving image"}
+2020/02/24 22:24:36 {"prediction time":"366.011732ms"}
+2020/02/24 22:24:36 {"msg":"serving log"}
+2020/02/24 22:24:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:36 {"msg":"serving log"}
+2020/02/24 22:24:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:37 {"msg":"serving predict"}
+2020/02/24 22:24:37 {"msg":"saving image"}
+2020/02/24 22:24:37 {"prediction time":"332.772503ms"}
+2020/02/24 22:24:37 {"msg":"serving log"}
+2020/02/24 22:24:37 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:38 {"msg":"serving log"}
+2020/02/24 22:24:38 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:38 {"msg":"serving log"}
+2020/02/24 22:24:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:39 {"msg":"serving log"}
+2020/02/24 22:24:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:39 {"msg":"serving predict"}
+2020/02/24 22:24:40 {"msg":"saving image"}
+2020/02/24 22:24:40 {"prediction time":"405.430896ms"}
+2020/02/24 22:24:40 {"msg":"serving log"}
+2020/02/24 22:24:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:40 {"msg":"serving log"}
+2020/02/24 22:24:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:40 {"msg":"serving predict"}
+2020/02/24 22:24:40 {"msg":"saving image"}
+2020/02/24 22:24:40 {"prediction time":"320.372689ms"}
+2020/02/24 22:24:41 {"msg":"serving log"}
+2020/02/24 22:24:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:42 {"msg":"serving log"}
+2020/02/24 22:24:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:42 {"msg":"serving predict"}
+2020/02/24 22:24:42 {"msg":"saving image"}
+2020/02/24 22:24:42 {"prediction time":"351.788271ms"}
+2020/02/24 22:24:42 {"msg":"serving log"}
+2020/02/24 22:24:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:43 {"msg":"serving log"}
+2020/02/24 22:24:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:43 {"msg":"serving log"}
+2020/02/24 22:24:43 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:43 {"msg":"serving predict"}
+2020/02/24 22:24:44 {"msg":"saving image"}
+2020/02/24 22:24:44 {"prediction time":"340.693378ms"}
+2020/02/24 22:24:44 {"msg":"serving predict"}
+2020/02/24 22:24:44 {"msg":"saving image"}
+2020/02/24 22:24:44 {"prediction time":"321.339975ms"}
+2020/02/24 22:24:45 {"msg":"serving log"}
+2020/02/24 22:24:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:45 {"msg":"serving log"}
+2020/02/24 22:24:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:46 {"msg":"serving predict"}
+2020/02/24 22:24:46 {"msg":"saving image"}
+2020/02/24 22:24:46 {"prediction time":"334.704226ms"}
+2020/02/24 22:24:46 {"msg":"serving log"}
+2020/02/24 22:24:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:47 {"msg":"serving log"}
+2020/02/24 22:24:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:47 {"msg":"serving predict"}
+2020/02/24 22:24:47 {"msg":"saving image"}
+2020/02/24 22:24:47 {"prediction time":"319.53734ms"}
+2020/02/24 22:24:47 {"msg":"serving log"}
+2020/02/24 22:24:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:47 {"msg":"serving predict"}
+2020/02/24 22:24:48 {"msg":"saving image"}
+2020/02/24 22:24:48 {"prediction time":"282.017122ms"}
+2020/02/24 22:24:48 {"msg":"serving log"}
+2020/02/24 22:24:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:48 {"msg":"serving predict"}
+2020/02/24 22:24:49 {"msg":"saving image"}
+2020/02/24 22:24:49 {"prediction time":"294.207299ms"}
+2020/02/24 22:24:49 {"msg":"serving log"}
+2020/02/24 22:24:49 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:49 {"msg":"serving log"}
+2020/02/24 22:24:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:49 {"msg":"serving predict"}
+2020/02/24 22:24:49 {"msg":"saving image"}
+2020/02/24 22:24:49 {"prediction time":"288.094213ms"}
+2020/02/24 22:24:50 {"msg":"serving log"}
+2020/02/24 22:24:50 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:51 {"msg":"serving log"}
+2020/02/24 22:24:51 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:51 {"msg":"serving predict"}
+2020/02/24 22:24:51 {"msg":"saving image"}
+2020/02/24 22:24:51 {"prediction time":"283.296725ms"}
+2020/02/24 22:24:52 {"msg":"serving log"}
+2020/02/24 22:24:52 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:52 {"msg":"serving predict"}
+2020/02/24 22:24:52 {"msg":"serving landing"}
+2020/02/24 22:24:52 {"msg":"saving image"}
+2020/02/24 22:24:52 {"prediction time":"302.834821ms"}
+2020/02/24 22:24:52 {"msg":"serving log"}
+2020/02/24 22:24:52 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:52 {"msg":"serving log"}
+2020/02/24 22:24:52 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:53 {"msg":"serving landing"}
+2020/02/24 22:24:54 {"msg":"serving log"}
+2020/02/24 22:24:54 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:54 {"msg":"serving predict"}
+2020/02/24 22:24:54 {"msg":"saving image"}
+2020/02/24 22:24:54 {"prediction time":"317.856555ms"}
+2020/02/24 22:24:55 {"msg":"serving log"}
+2020/02/24 22:24:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:56 {"msg":"serving landing"}
+2020/02/24 22:24:56 {"msg":"serving landing"}
+2020/02/24 22:24:56 {"msg":"serving log"}
+2020/02/24 22:24:56 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:57 {"msg":"serving log"}
+2020/02/24 22:24:57 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:57 {"msg":"serving predict"}
+2020/02/24 22:24:57 {"msg":"saving image"}
+2020/02/24 22:24:57 {"prediction time":"338.242755ms"}
+2020/02/24 22:24:57 {"msg":"serving log"}
+2020/02/24 22:24:57 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:58 {"msg":"serving log"}
+2020/02/24 22:24:58 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:24:58 {"msg":"serving predict"}
+2020/02/24 22:24:58 {"msg":"saving image"}
+2020/02/24 22:24:58 {"prediction time":"440.165087ms"}
+2020/02/24 22:24:58 {"msg":"serving log"}
+2020/02/24 22:24:58 {"msg":"client log","prediction received":""}
+2020/02/24 22:24:59 {"msg":"serving predict"}
+2020/02/24 22:24:59 {"msg":"saving image"}
+2020/02/24 22:24:59 {"prediction time":"328.169089ms"}
+2020/02/24 22:25:00 {"msg":"serving log"}
+2020/02/24 22:25:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:01 {"msg":"serving log"}
+2020/02/24 22:25:01 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:02 {"msg":"serving log"}
+2020/02/24 22:25:02 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:02 {"msg":"serving predict"}
+2020/02/24 22:25:02 {"msg":"saving image"}
+2020/02/24 22:25:02 {"prediction time":"348.554635ms"}
+2020/02/24 22:25:03 {"msg":"serving log"}
+2020/02/24 22:25:03 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:03 {"msg":"serving log"}
+2020/02/24 22:25:03 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:03 {"msg":"serving predict"}
+2020/02/24 22:25:03 {"msg":"saving image"}
+2020/02/24 22:25:03 {"prediction time":"375.612617ms"}
+2020/02/24 22:25:04 {"msg":"serving log"}
+2020/02/24 22:25:04 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:04 {"msg":"serving log"}
+2020/02/24 22:25:04 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:05 {"msg":"serving predict"}
+2020/02/24 22:25:05 {"msg":"saving image"}
+2020/02/24 22:25:05 {"prediction time":"329.763036ms"}
+2020/02/24 22:25:05 {"msg":"serving log"}
+2020/02/24 22:25:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:05 {"msg":"serving log"}
+2020/02/24 22:25:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:05 {"msg":"serving predict"}
+2020/02/24 22:25:06 {"msg":"saving image"}
+2020/02/24 22:25:06 {"prediction time":"345.195704ms"}
+2020/02/24 22:25:06 {"msg":"serving log"}
+2020/02/24 22:25:06 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:06 {"msg":"serving predict"}
+2020/02/24 22:25:07 {"msg":"saving image"}
+2020/02/24 22:25:07 {"prediction time":"358.474126ms"}
+2020/02/24 22:25:07 {"msg":"serving log"}
+2020/02/24 22:25:07 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:07 {"msg":"serving log"}
+2020/02/24 22:25:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:08 {"msg":"serving log"}
+2020/02/24 22:25:08 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:08 {"msg":"serving predict"}
+2020/02/24 22:25:09 {"msg":"saving image"}
+2020/02/24 22:25:09 {"prediction time":"344.297135ms"}
+2020/02/24 22:25:09 {"msg":"serving log"}
+2020/02/24 22:25:09 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:10 {"msg":"serving log"}
+2020/02/24 22:25:10 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:10 {"msg":"serving log"}
+2020/02/24 22:25:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:11 {"msg":"serving log"}
+2020/02/24 22:25:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:11 {"msg":"serving log"}
+2020/02/24 22:25:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:12 {"msg":"serving log"}
+2020/02/24 22:25:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:12 {"msg":"serving predict"}
+2020/02/24 22:25:13 {"msg":"saving image"}
+2020/02/24 22:25:13 {"prediction time":"369.21365ms"}
+2020/02/24 22:25:13 {"msg":"serving log"}
+2020/02/24 22:25:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:13 {"msg":"serving predict"}
+2020/02/24 22:25:14 {"msg":"saving image"}
+2020/02/24 22:25:14 {"prediction time":"353.652255ms"}
+2020/02/24 22:25:14 {"msg":"serving log"}
+2020/02/24 22:25:14 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:15 {"msg":"serving log"}
+2020/02/24 22:25:15 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:16 {"msg":"serving log"}
+2020/02/24 22:25:16 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:17 {"msg":"serving log"}
+2020/02/24 22:25:17 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:17 {"msg":"serving predict"}
+2020/02/24 22:25:17 {"msg":"saving image"}
+2020/02/24 22:25:17 {"prediction time":"493.769552ms"}
+2020/02/24 22:25:18 {"msg":"serving predict"}
+2020/02/24 22:25:18 {"msg":"saving image"}
+2020/02/24 22:25:18 {"prediction time":"343.102429ms"}
+2020/02/24 22:25:18 {"msg":"serving log"}
+2020/02/24 22:25:18 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:19 {"msg":"serving predict"}
+2020/02/24 22:25:19 {"msg":"saving image"}
+2020/02/24 22:25:19 {"prediction time":"332.839044ms"}
+2020/02/24 22:25:19 {"msg":"serving log"}
+2020/02/24 22:25:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:20 {"msg":"serving log"}
+2020/02/24 22:25:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:20 {"msg":"serving predict"}
+2020/02/24 22:25:21 {"msg":"saving image"}
+2020/02/24 22:25:21 {"prediction time":"331.165368ms"}
+2020/02/24 22:25:22 {"msg":"serving predict"}
+2020/02/24 22:25:22 {"msg":"saving image"}
+2020/02/24 22:25:22 {"prediction time":"320.597048ms"}
+2020/02/24 22:25:23 {"msg":"serving log"}
+2020/02/24 22:25:23 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:24 {"msg":"serving log"}
+2020/02/24 22:25:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:24 {"msg":"serving predict"}
+2020/02/24 22:25:24 {"msg":"saving image"}
+2020/02/24 22:25:24 {"prediction time":"350.072933ms"}
+2020/02/24 22:25:24 {"msg":"serving log"}
+2020/02/24 22:25:24 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:24 {"msg":"serving log"}
+2020/02/24 22:25:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:24 {"msg":"serving predict"}
+2020/02/24 22:25:25 {"msg":"saving image"}
+2020/02/24 22:25:25 {"prediction time":"399.282386ms"}
+2020/02/24 22:25:25 {"msg":"serving log"}
+2020/02/24 22:25:25 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:25 {"msg":"serving log"}
+2020/02/24 22:25:25 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:25 {"msg":"serving predict"}
+2020/02/24 22:25:26 {"msg":"saving image"}
+2020/02/24 22:25:26 {"prediction time":"394.347256ms"}
+2020/02/24 22:25:26 {"msg":"serving predict"}
+2020/02/24 22:25:27 {"msg":"saving image"}
+2020/02/24 22:25:27 {"prediction time":"339.672812ms"}
+2020/02/24 22:25:27 {"msg":"serving log"}
+2020/02/24 22:25:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:27 {"msg":"serving predict"}
+2020/02/24 22:25:27 {"msg":"saving image"}
+2020/02/24 22:25:27 {"prediction time":"344.678539ms"}
+2020/02/24 22:25:28 {"msg":"serving predict"}
+2020/02/24 22:25:28 {"msg":"saving image"}
+2020/02/24 22:25:28 {"prediction time":"413.113178ms"}
+2020/02/24 22:25:28 {"msg":"serving log"}
+2020/02/24 22:25:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:29 {"msg":"serving log"}
+2020/02/24 22:25:29 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:29 {"msg":"serving predict"}
+2020/02/24 22:25:29 {"msg":"saving image"}
+2020/02/24 22:25:29 {"prediction time":"354.485125ms"}
+2020/02/24 22:25:29 {"msg":"serving log"}
+2020/02/24 22:25:29 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:30 {"msg":"serving log"}
+2020/02/24 22:25:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:30 {"msg":"serving log"}
+2020/02/24 22:25:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:31 {"msg":"serving predict"}
+2020/02/24 22:25:31 {"msg":"saving image"}
+2020/02/24 22:25:31 {"prediction time":"352.756559ms"}
+2020/02/24 22:25:31 {"msg":"serving log"}
+2020/02/24 22:25:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:31 {"msg":"serving log"}
+2020/02/24 22:25:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:31 {"msg":"serving predict"}
+2020/02/24 22:25:32 {"msg":"saving image"}
+2020/02/24 22:25:32 {"prediction time":"345.573648ms"}
+2020/02/24 22:25:32 {"msg":"serving log"}
+2020/02/24 22:25:32 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:32 {"msg":"serving log"}
+2020/02/24 22:25:32 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:32 {"msg":"serving predict"}
+2020/02/24 22:25:33 {"msg":"saving image"}
+2020/02/24 22:25:33 {"prediction time":"375.613617ms"}
+2020/02/24 22:25:33 {"msg":"serving log"}
+2020/02/24 22:25:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:33 {"msg":"serving log"}
+2020/02/24 22:25:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:34 {"msg":"serving log"}
+2020/02/24 22:25:34 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:34 {"msg":"serving predict"}
+2020/02/24 22:25:34 {"msg":"saving image"}
+2020/02/24 22:25:34 {"prediction time":"339.839423ms"}
+2020/02/24 22:25:34 {"msg":"serving log"}
+2020/02/24 22:25:34 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:35 {"msg":"serving log"}
+2020/02/24 22:25:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:35 {"msg":"serving predict"}
+2020/02/24 22:25:35 {"msg":"saving image"}
+2020/02/24 22:25:35 {"prediction time":"335.317471ms"}
+2020/02/24 22:25:35 {"msg":"serving log"}
+2020/02/24 22:25:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:35 {"msg":"serving log"}
+2020/02/24 22:25:35 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:36 {"msg":"serving predict"}
+2020/02/24 22:25:36 {"msg":"saving image"}
+2020/02/24 22:25:36 {"prediction time":"368.869192ms"}
+2020/02/24 22:25:36 {"msg":"serving log"}
+2020/02/24 22:25:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:37 {"msg":"serving log"}
+2020/02/24 22:25:37 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:37 {"msg":"serving predict"}
+2020/02/24 22:25:38 {"msg":"saving image"}
+2020/02/24 22:25:38 {"prediction time":"386.287745ms"}
+2020/02/24 22:25:38 {"msg":"serving log"}
+2020/02/24 22:25:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:39 {"msg":"serving log"}
+2020/02/24 22:25:39 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:39 {"msg":"serving log"}
+2020/02/24 22:25:39 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:39 {"msg":"serving predict"}
+2020/02/24 22:25:39 {"msg":"saving image"}
+2020/02/24 22:25:39 {"prediction time":"339.926977ms"}
+2020/02/24 22:25:40 {"msg":"serving log"}
+2020/02/24 22:25:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:41 {"msg":"serving log"}
+2020/02/24 22:25:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:41 {"msg":"serving log"}
+2020/02/24 22:25:41 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:42 {"msg":"serving predict"}
+2020/02/24 22:25:42 {"msg":"saving image"}
+2020/02/24 22:25:42 {"prediction time":"351.162904ms"}
+2020/02/24 22:25:42 {"msg":"serving log"}
+2020/02/24 22:25:42 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:42 {"msg":"serving predict"}
+2020/02/24 22:25:43 {"msg":"saving image"}
+2020/02/24 22:25:43 {"prediction time":"366.835739ms"}
+2020/02/24 22:25:44 {"msg":"serving log"}
+2020/02/24 22:25:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:44 {"msg":"serving log"}
+2020/02/24 22:25:44 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:45 {"msg":"serving log"}
+2020/02/24 22:25:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:46 {"msg":"serving log"}
+2020/02/24 22:25:46 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:46 {"msg":"serving predict"}
+2020/02/24 22:25:46 {"msg":"saving image"}
+2020/02/24 22:25:46 {"prediction time":"370.197805ms"}
+2020/02/24 22:25:46 {"msg":"serving log"}
+2020/02/24 22:25:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:47 {"msg":"serving log"}
+2020/02/24 22:25:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:47 {"msg":"serving log"}
+2020/02/24 22:25:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:48 {"msg":"serving log"}
+2020/02/24 22:25:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:48 {"msg":"serving predict"}
+2020/02/24 22:25:48 {"msg":"saving image"}
+2020/02/24 22:25:48 {"prediction time":"348.718161ms"}
+2020/02/24 22:25:48 {"msg":"serving log"}
+2020/02/24 22:25:48 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:48 {"msg":"serving log"}
+2020/02/24 22:25:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:48 {"msg":"serving predict"}
+2020/02/24 22:25:49 {"msg":"saving image"}
+2020/02/24 22:25:49 {"prediction time":"318.465351ms"}
+2020/02/24 22:25:49 {"msg":"serving log"}
+2020/02/24 22:25:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:51 {"msg":"serving log"}
+2020/02/24 22:25:51 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:51 {"msg":"serving log"}
+2020/02/24 22:25:51 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:52 {"msg":"serving log"}
+2020/02/24 22:25:52 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:52 {"msg":"serving landing"}
+2020/02/24 22:25:53 {"msg":"serving log"}
+2020/02/24 22:25:53 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:53 {"msg":"serving predict"}
+2020/02/24 22:25:53 {"msg":"serving landing"}
+2020/02/24 22:25:53 {"msg":"saving image"}
+2020/02/24 22:25:53 {"prediction time":"342.734402ms"}
+2020/02/24 22:25:53 {"msg":"serving log"}
+2020/02/24 22:25:53 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:53 {"msg":"serving log"}
+2020/02/24 22:25:53 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:54 {"msg":"serving predict"}
+2020/02/24 22:25:54 {"msg":"saving image"}
+2020/02/24 22:25:54 {"prediction time":"437.037477ms"}
+2020/02/24 22:25:54 {"msg":"serving log"}
+2020/02/24 22:25:54 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:54 {"msg":"serving predict"}
+2020/02/24 22:25:55 {"msg":"serving landing"}
+2020/02/24 22:25:55 {"msg":"saving image"}
+2020/02/24 22:25:55 {"prediction time":"353.974797ms"}
+2020/02/24 22:25:55 {"msg":"serving log"}
+2020/02/24 22:25:55 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:56 {"msg":"serving landing"}
+2020/02/24 22:25:56 {"msg":"serving landing"}
+2020/02/24 22:25:56 {"msg":"serving log"}
+2020/02/24 22:25:56 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:56 {"msg":"serving predict"}
+2020/02/24 22:25:57 {"msg":"saving image"}
+2020/02/24 22:25:57 {"prediction time":"325.747651ms"}
+2020/02/24 22:25:57 {"msg":"serving log"}
+2020/02/24 22:25:57 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:58 {"msg":"serving log"}
+2020/02/24 22:25:58 {"msg":"client log","prediction received":""}
+2020/02/24 22:25:59 {"msg":"serving log"}
+2020/02/24 22:25:59 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:25:59 {"msg":"serving predict"}
+2020/02/24 22:25:59 {"msg":"saving image"}
+2020/02/24 22:25:59 {"prediction time":"349.44878ms"}
+2020/02/24 22:26:00 {"msg":"serving log"}
+2020/02/24 22:26:00 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:01 {"msg":"serving log"}
+2020/02/24 22:26:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:01 {"msg":"serving log"}
+2020/02/24 22:26:01 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:01 {"msg":"serving log"}
+2020/02/24 22:26:01 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:01 {"msg":"serving predict"}
+2020/02/24 22:26:02 {"msg":"saving image"}
+2020/02/24 22:26:02 {"prediction time":"350.422931ms"}
+2020/02/24 22:26:02 {"msg":"serving log"}
+2020/02/24 22:26:02 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:02 {"msg":"serving predict"}
+2020/02/24 22:26:03 {"msg":"saving image"}
+2020/02/24 22:26:03 {"prediction time":"334.661228ms"}
+2020/02/24 22:26:03 {"msg":"serving log"}
+2020/02/24 22:26:03 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:03 {"msg":"serving predict"}
+2020/02/24 22:26:03 {"msg":"saving image"}
+2020/02/24 22:26:03 {"prediction time":"320.116461ms"}
+2020/02/24 22:26:04 {"msg":"serving log"}
+2020/02/24 22:26:04 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:04 {"msg":"serving predict"}
+2020/02/24 22:26:04 {"msg":"saving image"}
+2020/02/24 22:26:04 {"prediction time":"339.909945ms"}
+2020/02/24 22:26:05 {"msg":"serving log"}
+2020/02/24 22:26:05 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:05 {"msg":"serving log"}
+2020/02/24 22:26:05 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:06 {"msg":"serving log"}
+2020/02/24 22:26:06 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:06 {"msg":"serving predict"}
+2020/02/24 22:26:06 {"msg":"saving image"}
+2020/02/24 22:26:06 {"prediction time":"328.027667ms"}
+2020/02/24 22:26:06 {"msg":"serving log"}
+2020/02/24 22:26:06 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:07 {"msg":"serving log"}
+2020/02/24 22:26:07 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:07 {"msg":"serving predict"}
+2020/02/24 22:26:08 {"msg":"saving image"}
+2020/02/24 22:26:08 {"prediction time":"357.74066ms"}
+2020/02/24 22:26:08 {"msg":"serving log"}
+2020/02/24 22:26:08 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:09 {"msg":"serving log"}
+2020/02/24 22:26:09 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:10 {"msg":"serving log"}
+2020/02/24 22:26:10 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:11 {"msg":"serving log"}
+2020/02/24 22:26:11 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:12 {"msg":"serving log"}
+2020/02/24 22:26:12 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:12 {"msg":"serving log"}
+2020/02/24 22:26:12 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:13 {"msg":"serving log"}
+2020/02/24 22:26:13 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:13 {"msg":"serving predict"}
+2020/02/24 22:26:13 {"msg":"saving image"}
+2020/02/24 22:26:13 {"prediction time":"345.135877ms"}
+2020/02/24 22:26:13 {"msg":"serving log"}
+2020/02/24 22:26:13 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:14 {"msg":"serving log"}
+2020/02/24 22:26:14 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:14 {"msg":"serving predict"}
+2020/02/24 22:26:15 {"msg":"saving image"}
+2020/02/24 22:26:15 {"prediction time":"328.831189ms"}
+2020/02/24 22:26:15 {"msg":"serving log"}
+2020/02/24 22:26:15 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:15 {"msg":"serving predict"}
+2020/02/24 22:26:16 {"msg":"saving image"}
+2020/02/24 22:26:16 {"prediction time":"357.757205ms"}
+2020/02/24 22:26:16 {"msg":"serving log"}
+2020/02/24 22:26:16 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:16 {"msg":"serving predict"}
+2020/02/24 22:26:17 {"msg":"saving image"}
+2020/02/24 22:26:17 {"prediction time":"343.809759ms"}
+2020/02/24 22:26:17 {"msg":"serving log"}
+2020/02/24 22:26:17 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:17 {"msg":"serving log"}
+2020/02/24 22:26:17 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:17 {"msg":"serving predict"}
+2020/02/24 22:26:17 {"msg":"saving image"}
+2020/02/24 22:26:17 {"prediction time":"368.163291ms"}
+2020/02/24 22:26:18 {"msg":"serving log"}
+2020/02/24 22:26:18 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:18 {"msg":"serving predict"}
+2020/02/24 22:26:18 {"msg":"saving image"}
+2020/02/24 22:26:18 {"prediction time":"349.126544ms"}
+2020/02/24 22:26:19 {"msg":"serving log"}
+2020/02/24 22:26:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:19 {"msg":"serving log"}
+2020/02/24 22:26:19 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:19 {"msg":"serving log"}
+2020/02/24 22:26:19 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:20 {"msg":"serving log"}
+2020/02/24 22:26:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:20 {"msg":"serving log"}
+2020/02/24 22:26:20 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:21 {"msg":"serving predict"}
+2020/02/24 22:26:21 {"msg":"saving image"}
+2020/02/24 22:26:21 {"prediction time":"285.896575ms"}
+2020/02/24 22:26:21 {"msg":"serving log"}
+2020/02/24 22:26:21 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:21 {"msg":"serving log"}
+2020/02/24 22:26:21 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:21 {"msg":"serving predict"}
+2020/02/24 22:26:22 {"msg":"saving image"}
+2020/02/24 22:26:22 {"prediction time":"294.026434ms"}
+2020/02/24 22:26:22 {"msg":"serving log"}
+2020/02/24 22:26:22 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:22 {"msg":"serving log"}
+2020/02/24 22:26:22 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:22 {"msg":"serving predict"}
+2020/02/24 22:26:23 {"msg":"saving image"}
+2020/02/24 22:26:23 {"prediction time":"290.484439ms"}
+2020/02/24 22:26:23 {"msg":"serving log"}
+2020/02/24 22:26:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:23 {"msg":"serving log"}
+2020/02/24 22:26:23 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:24 {"msg":"serving log"}
+2020/02/24 22:26:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:24 {"msg":"serving predict"}
+2020/02/24 22:26:24 {"msg":"saving image"}
+2020/02/24 22:26:24 {"prediction time":"289.856587ms"}
+2020/02/24 22:26:24 {"msg":"serving log"}
+2020/02/24 22:26:24 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:25 {"msg":"serving predict"}
+2020/02/24 22:26:25 {"msg":"saving image"}
+2020/02/24 22:26:25 {"prediction time":"337.724712ms"}
+2020/02/24 22:26:25 {"msg":"serving predict"}
+2020/02/24 22:26:26 {"msg":"saving image"}
+2020/02/24 22:26:26 {"prediction time":"349.580314ms"}
+2020/02/24 22:26:26 {"msg":"serving log"}
+2020/02/24 22:26:26 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:27 {"msg":"serving log"}
+2020/02/24 22:26:27 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:27 {"msg":"serving predict"}
+2020/02/24 22:26:27 {"msg":"saving image"}
+2020/02/24 22:26:27 {"prediction time":"304.322736ms"}
+2020/02/24 22:26:28 {"msg":"serving log"}
+2020/02/24 22:26:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:28 {"msg":"serving log"}
+2020/02/24 22:26:28 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:29 {"msg":"serving log"}
+2020/02/24 22:26:29 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:30 {"msg":"serving log"}
+2020/02/24 22:26:30 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:31 {"msg":"serving log"}
+2020/02/24 22:26:31 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:31 {"msg":"serving log"}
+2020/02/24 22:26:31 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:31 {"msg":"serving predict"}
+2020/02/24 22:26:32 {"msg":"saving image"}
+2020/02/24 22:26:32 {"prediction time":"317.650164ms"}
+2020/02/24 22:26:33 {"msg":"serving log"}
+2020/02/24 22:26:33 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:33 {"msg":"serving log"}
+2020/02/24 22:26:33 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:35 {"msg":"serving predict"}
+2020/02/24 22:26:35 {"msg":"saving image"}
+2020/02/24 22:26:35 {"prediction time":"370.542059ms"}
+2020/02/24 22:26:35 {"msg":"serving log"}
+2020/02/24 22:26:35 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:36 {"msg":"serving predict"}
+2020/02/24 22:26:36 {"msg":"saving image"}
+2020/02/24 22:26:36 {"prediction time":"327.736336ms"}
+2020/02/24 22:26:36 {"msg":"serving log"}
+2020/02/24 22:26:36 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:36 {"msg":"serving log"}
+2020/02/24 22:26:36 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:37 {"msg":"serving log"}
+2020/02/24 22:26:37 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:38 {"msg":"serving log"}
+2020/02/24 22:26:38 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:38 {"msg":"serving log"}
+2020/02/24 22:26:38 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:38 {"msg":"serving predict"}
+2020/02/24 22:26:39 {"msg":"saving image"}
+2020/02/24 22:26:39 {"prediction time":"384.333074ms"}
+2020/02/24 22:26:39 {"msg":"serving predict"}
+2020/02/24 22:26:40 {"msg":"saving image"}
+2020/02/24 22:26:40 {"prediction time":"358.960373ms"}
+2020/02/24 22:26:40 {"msg":"serving log"}
+2020/02/24 22:26:40 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:40 {"msg":"serving log"}
+2020/02/24 22:26:40 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:41 {"msg":"serving log"}
+2020/02/24 22:26:41 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:41 {"msg":"serving log"}
+2020/02/24 22:26:41 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:41 {"msg":"serving predict"}
+2020/02/24 22:26:41 {"msg":"saving image"}
+2020/02/24 22:26:41 {"prediction time":"322.511236ms"}
+2020/02/24 22:26:41 {"msg":"serving log"}
+2020/02/24 22:26:41 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:43 {"msg":"serving log"}
+2020/02/24 22:26:43 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:43 {"msg":"serving log"}
+2020/02/24 22:26:43 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:44 {"msg":"serving log"}
+2020/02/24 22:26:44 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:45 {"msg":"serving log"}
+2020/02/24 22:26:45 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:46 {"msg":"serving log"}
+2020/02/24 22:26:46 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:46 {"msg":"serving log"}
+2020/02/24 22:26:46 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:46 {"msg":"serving predict"}
+2020/02/24 22:26:46 {"msg":"saving image"}
+2020/02/24 22:26:46 {"prediction time":"347.653595ms"}
+2020/02/24 22:26:47 {"msg":"serving log"}
+2020/02/24 22:26:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:47 {"msg":"serving log"}
+2020/02/24 22:26:47 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:47 {"msg":"serving predict"}
+2020/02/24 22:26:47 {"msg":"saving image"}
+2020/02/24 22:26:47 {"prediction time":"328.091898ms"}
+2020/02/24 22:26:47 {"msg":"serving log"}
+2020/02/24 22:26:47 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:48 {"msg":"serving log"}
+2020/02/24 22:26:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:48 {"msg":"serving predict"}
+2020/02/24 22:26:48 {"msg":"saving image"}
+2020/02/24 22:26:48 {"prediction time":"338.660509ms"}
+2020/02/24 22:26:48 {"msg":"serving log"}
+2020/02/24 22:26:48 {"msg":"client log","prediction received":""}
+2020/02/24 22:26:48 {"msg":"serving log"}
+2020/02/24 22:26:48 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:49 {"msg":"serving predict"}
+2020/02/24 22:26:49 {"msg":"saving image"}
+2020/02/24 22:26:49 {"prediction time":"415.532701ms"}
+2020/02/24 22:26:49 {"msg":"serving log"}
+2020/02/24 22:26:49 {"height":"640","msg":"client log","name":"started prediction","width":"480"}
+2020/02/24 22:26:53 {"msg":"serving landing"}
+2020/02/24 22:26:56 {"msg":"serving landing"}
+2020/02/24 22:27:52 {"msg":"serving landing"}
+2020/02/24 22:27:56 {"msg":"serving landing"}
+2020/02/24 22:27:56 {"msg":"serving landing"}
+2020/02/24 22:28:52 {"msg":"serving landing"}
+2020/02/24 22:28:55 {"msg":"serving landing"}
+2020/02/24 22:29:56 {"msg":"serving landing"}
+2020/02/24 22:29:56 {"msg":"serving landing"}
+2020/02/24 22:30:55 {"msg":"serving landing"}
+2020/02/24 22:30:56 {"msg":"serving landing"}
+2020/02/24 22:30:56 {"msg":"serving landing"}
+2020/02/24 22:31:52 {"msg":"serving landing"}
+2020/02/24 22:31:53 {"msg":"serving landing"}
+2020/02/24 22:31:56 {"msg":"serving landing"}
+2020/02/24 22:31:56 {"msg":"serving landing"}
+2020/02/24 22:31:56 {"msg":"serving landing"}
+2020/02/24 22:32:52 {"msg":"serving landing"}
+2020/02/24 22:32:55 {"msg":"serving landing"}
+2020/02/24 22:32:56 {"msg":"serving landing"}
+2020/02/24 22:32:56 {"msg":"serving landing"}
+2020/02/24 22:32:56 {"msg":"serving landing"}
+2020/02/24 22:33:52 {"msg":"serving landing"}
+2020/02/24 22:33:56 {"msg":"serving landing"}
+2020/02/24 22:33:56 {"msg":"serving landing"}
+2020/02/24 22:34:52 {"msg":"serving landing"}
+2020/02/24 22:34:56 {"msg":"serving landing"}
+2020/02/24 22:34:56 {"msg":"serving landing"}
+2020/02/24 22:34:56 {"msg":"serving landing"}
+2020/02/24 22:36:52 {"msg":"serving landing"}
+2020/02/24 22:36:53 {"msg":"serving landing"}
+2020/02/24 22:36:55 {"msg":"serving landing"}
+2020/02/24 22:36:56 {"msg":"serving landing"}
+2020/02/24 22:36:56 {"msg":"serving landing"}
+2020/02/24 22:36:56 {"msg":"serving landing"}
+2020/02/24 22:38:52 {"msg":"serving landing"}
+2020/02/24 22:38:56 {"msg":"serving landing"}
+2020/02/24 22:39:55 {"msg":"serving landing"}
+2020/02/24 22:39:56 {"msg":"serving landing"}
+2020/02/24 22:39:56 {"msg":"serving landing"}
+2020/02/24 22:39:56 {"msg":"serving landing"}
