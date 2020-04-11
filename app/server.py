@@ -12,6 +12,10 @@ import time
 import minimap
 from predicter import predict_locations
 import logging
+import sentry_sdk
+from sentry_sdk import capture_exception
+
+sentry_sdk.init("https://0e27027a292a41d3a334a9d5c4fde2fa@o370311.ingest.sentry.io/5196683")
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'],
@@ -26,7 +30,7 @@ logs = logging.getLogger("request data")
 async def predict(request):
     form = await request.form()
     img_bytes = get_bytes(form)
-    src_img = Image.open(BytesIO(img_bytes))
+    src_img = Image.open(BytesIO(img_bytes)).convert('RGBA')
     src_map = minimap.locate_minimap(src_img)
     lolmap = src_map.resize((150, 150), Image.BICUBIC)
     converter = ImageEnhance.Color(lolmap)
