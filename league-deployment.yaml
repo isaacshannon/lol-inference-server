@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: league-app
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       run: league-app

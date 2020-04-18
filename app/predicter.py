@@ -4,7 +4,7 @@ from io import BytesIO
 
 from fastai.vision import open_image
 
-learn = load_learner("./app/models", "predict.pth")
+learn = load_learner("./app/models", "predict_18_apr_2020.pth")
 
 
 def predict_locations(aug_map):
