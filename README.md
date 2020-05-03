@@ -1,1 +1,1 @@
-A simple python serevr which serves inference requests.
+A simple python server which serves inference requests.
